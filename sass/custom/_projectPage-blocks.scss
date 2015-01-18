@@ -1,0 +1,125 @@
+/* PROJECT PAGE SHEMAMTICS */
+.project-landing {
+    padding: 2em 0 3em;
+}
+.head-div {
+    padding: 1.5em 20px;
+}
+
+.modal-block, .cta-block, .info-block {
+    padding: 4em 0;
+    p { font-size: 1.2em; }
+    a { font-weight: bold; }
+}
+.modal-block {
+    h4 {
+        text-align: center;
+        padding-bottom: 1.5em;
+    }
+}
+.cta-block {
+    .button {
+        width: 80%;
+        display: block; margin: 0px auto 20px; position:  relative; top: 42%;
+        color: #FFFFFF; border: 2px solid #FFFFFF; padding: 7px 0;
+        font-family: 'Open Sans', Helvetica, Arial, sans-serif; text-transform: uppercase; font-weight: bold; text-align: center;
+        @include transition-duration(0.36s);
+        @include border-top-radius(2px);
+        @include border-bottom-radius(2px);
+        @include border-left-radius(2px);
+        @include border-right-radius(2px);
+    }
+    .button:hover {
+         background-color: #FFFFFF;
+    }
+}
+
+
+/* Project Page Specifics */
+#rbs {
+    .head-img {
+        border-color: $rbs-purple;
+        border-bottom: 7px solid;
+        border-top: 4px solid;
+    }
+    .modal-block, .cta-block, .info-block {
+        p a, h4 a {
+            color: $rbs-darkgreen;
+        }
+        p a:hover, h4 a:hover {
+            @include transition-duration(0.16s);
+            color: lighten($rbs-darkgreen, 5%);
+            border-bottom: 2px solid lighten($rbs-darkgreen, 5%);
+        }
+    }
+    .modal-block {
+        .twelve.columns {
+            padding-bottom: 3.5em;
+        }
+        h4 {
+            line-height:140%;
+        }
+    }
+    .info-block {
+        background-image: url("../img/rbs-bg.jpg");
+        .image {
+            max-width: 300px;
+            margin: 0 auto;
+            border: 3px inset $rbs-lightgreen;
+        }
+        p {
+            margin-top: 1.5em;
+            color: white;
+        }
+    }
+}
+
+
+#rtr {
+    .title {
+        border-color: darken($rtr-offwhite, 5%)
+    }
+    .info-block {
+        background-color: $rtr-offwhite;
+    }
+    .modal-block {
+        background-image: url("../img/rtr-bg.jpg");
+        h4, p {color:white}
+    }
+    .cta-block {
+        h4, p {
+            color: $offblack;
+        }
+        .background {
+            background-image: url("../img/rtr-webcta.jpg");
+            height: 250px;
+            // @include box-shadow(inset 0px 0px 0px 3px rgba(255,255,255,0.3));
+        }
+        .button {top: 32%;}
+        .button:hover {
+            color: $rtr-blue;
+        }
+    }
+}
+#pw {
+    .title {
+        border-color: darken($offwhite, 10%);
+    }
+    .one {
+        background: $offwhite;
+        h4, p {color: darken($offwhite, 70%);}
+    }
+    .cta-block {
+        h4, p {
+            color: $offblack;
+        }
+        .background {
+            background-image: url("../img/pw-webcta.jpg");
+            height: 250px;
+            // @include box-shadow(inset 0px 0px 0px 3px rgba(255,255,255,0.3));
+        }
+        .button:hover {
+            color: $rtr-blue;
+        }
+    }
+}
