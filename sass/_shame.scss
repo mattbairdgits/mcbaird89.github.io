@@ -7,7 +7,14 @@
     background-color: white;
     padding: 5em 0 9em;
 }
-
+#yer-great {
+  max-width:80%;
+  margin: 0 auto;
+  display: block;
+  @include media (min-width $medium-screen) {
+    max-width:50%;
+  }
+}
 .work {
     background-color: $darkblue;
     padding: 4em 0;
@@ -44,25 +51,11 @@
 hr { width: 16%; margin: 1.5em auto; }
 .background { background-size: cover; }
 .txtcenter { text-align:center; }
-.liggies-pls {
-  -moz-font-feature-settings:"swsh=1";
-  -moz-font-feature-settings:"swsh";
-  -ms-font-feature-settings:"swsh";
-  -o-font-feature-settings:"swsh";
-  -webkit-font-feature-settings: "swsh";
-  font-feature-settings:"swsh";
-}
-.title {
-    border-bottom: 3px solid;
-    + p {
-        margin-top: 1em;
-    }
-}
 .opa-hover {
     opacity:0.85;
-
+    @include transition-duration(0.36s);
     &:hover{
-        @include transition-duration(0.36s);
+
         opacity: 1;
     }
 }
