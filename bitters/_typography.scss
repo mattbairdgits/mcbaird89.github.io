@@ -23,13 +23,6 @@ h6 {
   text-rendering: optimizeLegibility; // Fix the character spacing for headings
 }
 
-.script {
-  font-size: $h1-font-size * 2;
-  font-family: $script-font-family;
-  font-weight: 300;
-  text-rendering: auto;
-}
-
 h1 {
   font-size: $h1-font-size;
 }
