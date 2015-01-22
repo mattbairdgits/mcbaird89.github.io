@@ -6,7 +6,6 @@
  * MIT License */
 /* LE PALETTE */
 @import url(../bower_components/animsition/dist/css/animsition.min.css);
-@import url("//hello.myfonts.net/count/29476a");
 @import url("//hello.myfonts.net/count/2d0d79");
 button,
 input[type="submit"] {
@@ -50,12 +49,6 @@ h6 {
   line-height: 1.25;
   margin: 0;
   text-rendering: optimizeLegibility; }
-
-.script {
-  font-size: 4.5em;
-  font-family: "NoSevenRegular", Georgia, Cambria, "Times New Roman", Times, serif;
-  font-weight: 300;
-  text-rendering: auto; }
 
 h1, .next h4 a {
   font-size: 2.25em; }
@@ -250,10 +243,6 @@ html {
   font-family: 'Sailec-Black';
   src: url("webfonts/2D0D79_0_0.eot");
   src: url("webfonts/2D0D79_0_0.eot?#iefix") format("embedded-opentype"), url("webfonts/2D0D79_0_0.woff2") format("woff2"), url("webfonts/2D0D79_0_0.woff") format("woff"), url("webfonts/2D0D79_0_0.ttf") format("truetype"), url("webfonts/2D0D79_0_0.svg#wf") format("svg"); }
-@font-face {
-  font-family: 'NoSevenRegular';
-  src: url("../fonts/29476A_0_0.eot");
-  src: url("../fonts/29476A_0_0.eot?#iefix") format("embedded-opentype"), url("../fonts/29476A_0_0.woff") format("woff"), url("../fonts/29476A_0_0.ttf") format("truetype"); }
 header.navigation {
   min-height: 100px;
   width: 100%;
@@ -565,6 +554,11 @@ header.navigation {
 #pw .cta-block .button:hover {
   color: #399ed8; }
 
+#logo #heptagon {
+  fill: #2B2B2A; }
+#logo #text {
+  fill: #5DBFB1; }
+
 /* PORTFOLIO SHEMAMTICS */
 .row {
   max-width: 68em;
@@ -579,6 +573,14 @@ header.navigation {
 .landing {
   background-color: white;
   padding: 5em 0 9em; }
+
+#yer-great {
+  max-width: 80%;
+  margin: 0 auto;
+  display: block; }
+  @media screen and (min-width: 40em) {
+    #yer-great {
+      max-width: 50%; } }
 
 .work {
   background-color: #0C233F;
@@ -614,25 +616,12 @@ hr {
 .txtcenter {
   text-align: center; }
 
-.liggies-pls {
-  -moz-font-feature-settings: "swsh=1";
-  -moz-font-feature-settings: "swsh";
-  -ms-font-feature-settings: "swsh";
-  -o-font-feature-settings: "swsh";
-  -webkit-font-feature-settings: "swsh";
-  font-feature-settings: "swsh"; }
-
-.title {
-  border-bottom: 3px solid; }
-  .title + p {
-    margin-top: 1em; }
-
 .opa-hover {
-  opacity: 0.85; }
+  opacity: 0.85;
+  -webkit-transition-duration: 0.36s;
+  -moz-transition-duration: 0.36s;
+  transition-duration: 0.36s; }
   .opa-hover:hover {
-    -webkit-transition-duration: 0.36s;
-    -moz-transition-duration: 0.36s;
-    transition-duration: 0.36s;
     opacity: 1; }
 
 /* END TOWELS */
