@@ -47,32 +47,13 @@
       <svg id="logo" class="opa-hover" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 viewBox="0 0 1000 1000" enable-background="new 0 0 1000 1000" xml:space="preserve">
 
-  <path id="heptagon" fill="none" stroke="#5DBFB1" stroke-width="30" stroke-miterlimit="30" d="M499.9,955.1c-2.1,0-4.2-0.5-6.1-1.4L131,779c-3.8-1.8-6.6-5.3-7.6-9.5L33.9,376.9
+  <path id="heptagon" d="M499.9,955.1c-2.1,0-4.2-0.5-6.1-1.4L131,779c-3.8-1.8-6.6-5.3-7.6-9.5L33.9,376.9
   c-0.9-4.2,0-8.5,2.7-11.8L287.7,50.2c2.7-3.3,6.7-5.3,10.9-5.3h402.7c4.3,0,8.3,1.9,10.9,5.3l251.1,314.9
   c2.7,3.3,3.7,7.7,2.7,11.8l-89.6,392.6c-0.9,4.2-3.7,7.7-7.6,9.5L506,953.7C504.1,954.6,502,955.1,499.9,955.1z"/>
 
-  <!-- Fade-In Animation -->
-    <animate
-      xlink:href="#heptagon"
-      attributeName="fill"
-      from="rgba(255,255,255,0)"
-      to="#333"
-      begin="3s"
-      dur="2s"
-      fill="freeze"
-    />
-  <!-- Stroke Fade-Out Animation -->
-    <animate
-      xlink:href="#heptagon"
-      attributeName="stroke"
-      from="#5DBFB1"
-      to="rgba(255,255,255,0)"
-      begin="3s"
-      dur="2s"
-      fill="freeze"
-    />
 
-  <g id="text" fill="none" stroke="#5DBFB1" stroke-width="4" stroke-miterlimit="4">
+
+  <g id="text">
     <g>
       <path d="M244.6,451.9v-31.2l-15.8,30.2h-12.5l-16-30.2v31.2h-18.9v-72.8h16.7l24.1,44.4l24-44.4h16.7v72.8H244.6
       z"/>
@@ -121,35 +102,15 @@ viewBox="0 0 1000 1000" enable-background="new 0 0 1000 1000" xml:space="preserv
     </g>
   </g>
 
-  <!-- Fade-In Animation -->
-    <animate
-      xlink:href="#text"
-      attributeName="fill"
-      from="rgba(255,255,255,0)"
-      to="#5DBFB1"
-      begin="3s"
-      dur="2s"
-      fill="freeze"
-    />
-  <!-- Stroke Fade-Out Animation -->
-    <animate
-      xlink:href="#text"
-      attributeName="stroke"
-      from="#5DBFB1"
-      to="rgba(255,255,255,0)"
-      begin="3s"
-      dur="2s"
-      fill="freeze"
-    />
 
 </svg>
     </a>
     <a href="#" class="navigation-menu-button" id="js-mobile-menu">MENU</a>
     <nav role="navigation">
       <ul id="js-navigation-menu" class="navigation-menu show">
-        <li class="nav-link"><a href="#">Portfolio</a></li>
+        <li class="nav-link"><a href="index.html">Portfolio</a></li>
         <li class="nav-link"><a href="#">About</a></li>
-        <li class="nav-link"><a href="#">Blog</a></li>
+        <li class="nav-link"><a href="http://codepen.io/mattbairdpenscode/blog/">Blog</a></li>
       </ul>
     </nav>
   </div>
@@ -358,7 +319,7 @@ if(!oldieCheck) {
   </script>
 
   <script>
-    new Vivus('logo', {type: 'delayed', duration: 200, start: 'autostart'});
+    new Vivus('yer-great', {type: 'scenario'});
   </script>
 
 <!--
