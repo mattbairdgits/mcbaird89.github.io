@@ -23,6 +23,14 @@ h6 {
   text-rendering: optimizeLegibility; // Fix the character spacing for headings
 }
 
+h3,
+h4,
+h5,
+h6 {
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
 h1 {
   font-size: $h1-font-size;
 }
@@ -33,6 +41,7 @@ h2 {
 
 h3 {
   font-size: $h3-font-size;
+
 }
 
 h4 {
@@ -48,6 +57,7 @@ h6 {
 }
 
 p {
+  font-size: $base-font-size * 1.3;
   margin: 0 0 ($base-spacing / 2);
 }
 
@@ -71,7 +81,7 @@ hr {
   border-left: none;
   border-right: none;
   border-top: none;
-  margin: $base-spacing 0;
+  margin: 1em 0;
 }
 
 img,
