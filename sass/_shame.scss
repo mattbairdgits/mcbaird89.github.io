@@ -21,26 +21,28 @@
 
     .row {
         margin-bottom: 4em;
-        position: relative;
     }
+    h1{ color:$salmon; }
 }
 /* END PORTFOLIO SHEMAMTICS */
 .next {
     background-color: $darkblue;
     padding: 4em 0 2.5em;
 
-    h4 a {
-        @extend h1;
+    h4 {
+      @include transition-duration(0.36s);
+      a {
         font-size: 4.25rem;
-        color: $salmon;
-    }
-    i {
-        color: white;
-        font-size: em(13);
-        margin-left: em(8);
-        width: em(30);
-        line-height: em(30);
-        background-color: $salmon;
+        color: #FFFFFF;
+        @include transition-duration(0.36s);
+        &:hover {
+          color: $salmon;
+          @include transform( scale( 1.025 ));
+        }
+      }
+      &:hover {
+        @include transform( scale( 1.025 ));
+      }
     }
 }
 /* END PROJECT PAGE SHEMAMTICS */
@@ -48,7 +50,7 @@
 
 /* TOWELS */
 
-hr { width: 16%; margin: 1.5em auto; }
+
 .background { background-size: cover; }
 .txtcenter { text-align:center; }
 .opa-hover {

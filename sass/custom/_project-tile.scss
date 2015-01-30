@@ -19,7 +19,7 @@
       line-height:1.25em;
   }
   &:hover {
-      @include transform( scale( 1.025 )) ;
+      @include transform( scale( 1.025 ));
       color: $salmon;
   }
 }
