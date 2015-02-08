@@ -448,14 +448,18 @@ header.navigation {
 
 .selected-works {
   background-color: #0C233F;
-  padding: 4em 0; }
+  padding: 2em 0; }
+  @media screen and (min-width: 40em) {
+    .selected-works {
+      padding: 4em 0; } }
   .selected-works .og-row {
     margin-bottom: 4em;
     padding-bottom: 1.5em;
     border-bottom: 2px solid #1c5395; }
   .selected-works h1 {
     color: #F17A77;
-    text-align: center; }
+    text-align: center;
+    padding: 0 0.4em; }
   .selected-works p {
     color: #f8bebc;
     font-size: 0.6em;
@@ -664,7 +668,6 @@ img[src$="-div.png"] {
     -moz-transition-duration: 0.36s;
     transition-duration: 0.36s; }
     .next h4 a {
-      font-size: 4.25rem;
       color: #F17A77;
       -webkit-transition-duration: 0.36s;
       -moz-transition-duration: 0.36s;
@@ -676,6 +679,9 @@ img[src$="-div.png"] {
         -ms-transform: scale(1.025);
         -o-transform: scale(1.025);
         transform: scale(1.025); }
+      @media screen and (min-width: 40em) {
+        .next h4 a {
+          font-size: 4.25rem; } }
     .next h4:hover {
       -webkit-transform: scale(1.025);
       -moz-transform: scale(1.025);
@@ -684,6 +690,18 @@ img[src$="-div.png"] {
       transform: scale(1.025); }
 
 /* Project Page Specifics */
+#about article .image {
+  height: 0;
+  padding-bottom: 100%;
+  background: url("../img/matt-baird.jpg") 0 0;
+  background-size: 200%;
+  background-repeat: no-repeat;
+  display: block; }
+  #about article .image:hover {
+    background-position: 100%; }
+  @media screen and (min-width: 40em) {
+    #about article .image {
+      padding-bottom: 23.2317613015%; } }
 #about article .text {
   margin-top: 1.5em; }
 #about article a {

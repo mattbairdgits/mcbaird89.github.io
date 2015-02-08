@@ -1,13 +1,17 @@
 .selected-works {
     background-color: $darkblue;
-    padding: 4em 0;
+    padding: 2em 0;
+
+    @include media ($medium-screen) {
+      padding: 4em 0;
+    }
 
     .og-row {
         margin-bottom: 4em;
         padding-bottom: $base-spacing;
         border-bottom: 2px solid lighten($darkblue, 20%);
     }
-    h1{ color:$salmon; text-align: center; }
+    h1{ color:$salmon; text-align: center; padding: 0 0.4em; }
     p {
       color: lighten($salmon, 15%);
       font-size: 0.6*$base-font-size;
