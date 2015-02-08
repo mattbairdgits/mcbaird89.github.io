@@ -1,0 +1,19 @@
+.footer {
+  background-color: $darkblue;
+
+    .row {
+        padding: 4em $base-spacing;
+        border-top: 2px solid lighten($darkblue, 20%);
+    }
+    p {
+      font-size:0.75em;
+      color:white;
+    }
+    a {
+      color: $salmon;
+
+      &:hover {
+        color: lighten($salmon, 13%);
+      }
+    }
+}

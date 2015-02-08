@@ -93,11 +93,6 @@ img[src$="-div.png"] {
       }
     }
     .image {
-      border-radius: 50%;
-      overflow: hidden;
-      width: auto;
-      line-height: 0;
-
       @include media ($medium-screen) {
         @include span-columns( 3 );
       }
@@ -105,37 +100,41 @@ img[src$="-div.png"] {
   }
 }
 
+.next {
+    background-color: $darkblue;
+    padding: 4em 0 2.5em;
+
+    h4 {
+      @include transition-duration(0.36s);
+      a {
+        font-size: 4.25rem;
+        color: $salmon;
+        @include transition-duration(0.36s);
+        &:hover {
+          color: lighten($salmon, 5%);
+          @include transform( scale( 1.025 ));
+        }
+      }
+      &:hover {
+        @include transform( scale( 1.025 ));
+      }
+    }
+}
 
 /* Project Page Specifics */
-#rbs {
+#about {
+  article {
+    .text {
+        margin-top: 1.5em;
+    }
+    a {
+      color: $salmon;
 
-  img[src$="-div.png"] {
-      margin: 2em 0em;
+      &:hover {
+        color: lighten($salmon, 13%);
+      }
+    }
   }
-
-  .modal-block, .cta-block, .info-block {
-      p a, h4 a {
-          color: $rbs-darkgreen;
-          @include transition( all 0.16s );
-      }
-      p a:hover, h4 a:hover {
-          @include transition( all 0.16s );
-          color: lighten($rbs-darkgreen, 5%);
-          border-bottom: 2px solid lighten($rbs-darkgreen, 5%);
-      }
-  }
-
-  .info-block {
-      background-image: url("../img/rbs-bg.jpg");
-      .image {
-          border: 3px inset $rbs-lightgreen;
-      }
-      p {
-          margin-top: 1.5em;
-          color: white;
-      }
-  }
-
 }
 
 
@@ -150,7 +149,6 @@ img[src$="-div.png"] {
     }
 
     .modal-block {
-        background-image: url("../img/ryobi-bg.jpg");
         h4, p {color:white}
     }
 
@@ -159,7 +157,7 @@ img[src$="-div.png"] {
             color: $offblack;
         }
         .background {
-            background-image: url("../img/ryobi-webcta.jpg");
+            background-image: url("../img/rtr-webcta.jpg");
             height: 250px;
             // @include box-shadow(inset 0px 0px 0px 3px rgba(255,255,255,0.3));
         }

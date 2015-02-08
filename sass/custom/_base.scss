@@ -1,0 +1,22 @@
+.row {
+  @include outer-container;
+  padding: 0 $base-spacing;
+}
+.og-row {
+  @include outer-container;
+}
+.landing {
+    background-color: white;
+    padding: 5em 0 9em;
+}
+
+.background { background-size: cover; }
+.txtcenter { text-align:center; }
+.opa-hover {
+    opacity:0.85;
+    @include transition-duration(0.36s);
+    &:hover{
+
+        opacity: 1;
+    }
+}

@@ -1,9 +1,17 @@
 #logo {
-
   #heptagon {
     fill: $offblack;
   }
   #text {
     fill: $lightblue;
+  }
+}
+
+#yer-great {
+  max-width:80%;
+  margin: 0 auto;
+  display: block;
+  @include media (min-width $medium-screen) {
+    max-width:50%;
   }
 }

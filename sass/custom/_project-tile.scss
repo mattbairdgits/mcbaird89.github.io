@@ -1,17 +1,52 @@
-.project--tile {
-  max-width: 400px;
-  display: block;
-  margin: 0 auto;
-  @include transition( all 0.5s );
-  color:#555;
+.selected-works {
+    background-color: $darkblue;
+    padding: 4em 0;
 
-  @include media (min-width $medium-screen max-width $large-screen) {
-    @include span-columns( 6 );
-    @include omega( 2n );
+    .og-row {
+        margin-bottom: 4em;
+        padding-bottom: $base-spacing;
+        border-bottom: 2px solid lighten($darkblue, 20%);
+    }
+    h1{ color:$salmon; text-align: center; }
+    p {
+      color: lighten($salmon, 15%);
+      font-size: 0.6*$base-font-size;
+      text-decoration: line-through;
+      text-align: center;
+      font-style: italic;
+    }
+}
+
+.modal-tile {
+  @include span-columns( 12 );
+  margin-bottom: $base-spacing - 0.25em;
+
+  @include media ($medium-screen) {
+    @include span-columns( 8 );
+    @include shift( 2 );
   }
   @include media ($large-screen) {
     @include span-columns( 4 );
-    @include omega( 3n );
+    @include shift( 0 );
+  }
+  svg {
+    background: white;
+  }
+}
+
+.project-tile {
+  @include span-columns( 12 );
+  @include transition( all 0.5s );
+  color:#555;
+  margin-bottom: $base-spacing;
+
+  @include media ($medium-screen) {
+    @include span-columns( 8 );
+    @include shift( 2 );
+  }
+  @include media ($large-screen) {
+    @include span-columns( 4 );
+    @include shift( 0 );
   }
   img {display:block;}
   h4 {
@@ -24,9 +59,7 @@
   }
 }
 
-
-
-.project--summary__contain {
+.project-summaryContain {
     background-color: white;
-    padding: 2em 1em;
+    padding: 2.5em 1em;
 }
