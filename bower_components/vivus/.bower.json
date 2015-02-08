@@ -23,6 +23,5 @@
   },
   "_source": "git://github.com/maxwellito/vivus.git",
   "_target": "~0.1.2",
-  "_originalSource": "vivus",
-  "_direct": true
+  "_originalSource": "vivus"
 }
