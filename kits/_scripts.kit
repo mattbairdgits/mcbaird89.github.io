@@ -22,6 +22,8 @@ if(!oldieCheck) {
 <script src="bower_components/vivus/dist/vivus.js"></script>
 
 <script type="text/javascript">
+
+  //Animsition
   $(document).ready(function() {
 
     $(".animsition").animsition({
@@ -65,31 +67,29 @@ if(!oldieCheck) {
       });
     });
 
-  </script>
 
-  <script>
+    // Modal Refill
+    $(function() {
+      $(".modal-state").on("change", function() {
+        if ($(this).is(":checked")) {
+          $("body").addClass("modal-open");
+        } else {
+          $("body").removeClass("modal-open");
+        }
+      });
+
+      $(".modal-window").on("click", function() {
+        $(".modal-state:checked").prop("checked", false).change();
+      });
+
+      $(".modal-inner").on("click", function(e) {
+        e.stopPropagation();
+      });
+    });
+
     new Vivus('yer-great', {type: 'scenario'});
+
   </script>
-
-<!--
-  <script type="text/javascript">
-
-        $(function() {
-            $(".modal-link").click(function() {
-                $("body").removeClass("scrollPls");
-                $("body").addClass("noScroll");
-            });
-        });
-
-        $(function() {
-            $(".close").click(function() {
-                $("body").addClass("scrollPls");
-            });
-        });
-
-    </script> -->
-
-</head>
 
 <!-- Change UA-XXXXX-X to be your site's ID -->
 <!--<script>
