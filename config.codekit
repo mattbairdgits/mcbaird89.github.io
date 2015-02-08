@@ -2,6 +2,15 @@
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
 "creatorBuild": "18493",
 "files": {
+	"\/about.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/about.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/bitters\/_base.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -249,6 +258,18 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/animsition\/LICENSE.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/animsition\/LICENSE.md",
+		"outputAbbreviatedPath": "\/bower_components\/animsition\/LICENSE.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/bower_components\/animsition\/README.md": {
 		"enableFootnoteSupport": 0,
@@ -1913,57 +1934,35 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/img\/div.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1137,
-		"inputAbbreviatedPath": "\/img\/div.png",
-		"outputAbbreviatedPath": "\/img\/div.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/img_silence_demo.jpg": {
+	"\/img\/jellyfish-moon-thumb.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 235924,
-		"inputAbbreviatedPath": "\/img\/img_silence_demo.jpg",
-		"outputAbbreviatedPath": "\/img\/img_silence_demo.jpg",
+		"initialSize": 23424,
+		"inputAbbreviatedPath": "\/img\/jellyfish-moon-thumb.jpg",
+		"outputAbbreviatedPath": "\/img\/jellyfish-moon-thumb.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/logo.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 22214,
-		"inputAbbreviatedPath": "\/img\/logo.png",
-		"outputAbbreviatedPath": "\/img\/logo.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/noise.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 6495,
-		"inputAbbreviatedPath": "\/img\/noise.png",
-		"outputAbbreviatedPath": "\/img\/noise.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/pw-bg.jpg": {
+	"\/img\/jellyfish-moon.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 22648,
-		"inputAbbreviatedPath": "\/img\/pw-bg.jpg",
-		"outputAbbreviatedPath": "\/img\/pw-bg.jpg",
+		"initialSize": 75863,
+		"inputAbbreviatedPath": "\/img\/jellyfish-moon.jpg",
+		"outputAbbreviatedPath": "\/img\/jellyfish-moon.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/matt-baird.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 41088,
+		"inputAbbreviatedPath": "\/img\/matt-baird.jpg",
+		"outputAbbreviatedPath": "\/img\/matt-baird.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1997,17 +1996,6 @@
 		"initialSize": 33584,
 		"inputAbbreviatedPath": "\/img\/pw-webcta.jpg",
 		"outputAbbreviatedPath": "\/img\/pw-webcta.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/rbs-bg.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 38700,
-		"inputAbbreviatedPath": "\/img\/rbs-bg.jpg",
-		"outputAbbreviatedPath": "\/img\/rbs-bg.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2056,68 +2044,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/rbs-div.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1155,
-		"inputAbbreviatedPath": "\/img\/rbs-div.png",
-		"outputAbbreviatedPath": "\/img\/rbs-div.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/rbs-head.jpg": {
+	"\/img\/rbs-josalbum2.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 81623,
-		"inputAbbreviatedPath": "\/img\/rbs-head.jpg",
-		"outputAbbreviatedPath": "\/img\/rbs-head.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/rbs-jos.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 45924,
-		"inputAbbreviatedPath": "\/img\/rbs-jos.jpg",
-		"outputAbbreviatedPath": "\/img\/rbs-jos.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/rbs-thumb.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 51094,
-		"inputAbbreviatedPath": "\/img\/rbs-thumb.jpg",
-		"outputAbbreviatedPath": "\/img\/rbs-thumb.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/rbs-webcta.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 23672,
-		"inputAbbreviatedPath": "\/img\/rbs-webcta.jpg",
-		"outputAbbreviatedPath": "\/img\/rbs-webcta.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/rtr-bg.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 50152,
-		"inputAbbreviatedPath": "\/img\/rtr-bg.jpg",
-		"outputAbbreviatedPath": "\/img\/rtr-bg.jpg",
+		"initialSize": 97710,
+		"inputAbbreviatedPath": "\/img\/rbs-josalbum2.jpg",
+		"outputAbbreviatedPath": "\/img\/rbs-josalbum2.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2144,17 +2077,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/rtr-outdoorhome-thumb.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 61458,
-		"inputAbbreviatedPath": "\/img\/rtr-outdoorhome-thumb.jpg",
-		"outputAbbreviatedPath": "\/img\/rtr-outdoorhome-thumb.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/img\/rtr-outdoorhome.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -2166,17 +2088,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/rtr-powertoolshome-thumb.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 60067,
-		"inputAbbreviatedPath": "\/img\/rtr-powertoolshome-thumb.jpg",
-		"outputAbbreviatedPath": "\/img\/rtr-powertoolshome-thumb.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/img\/rtr-powertoolshome.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -2184,17 +2095,6 @@
 		"initialSize": 232403,
 		"inputAbbreviatedPath": "\/img\/rtr-powertoolshome.jpg",
 		"outputAbbreviatedPath": "\/img\/rtr-powertoolshome.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/rtr-product-thumb.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 48960,
-		"inputAbbreviatedPath": "\/img\/rtr-product-thumb.jpg",
-		"outputAbbreviatedPath": "\/img\/rtr-product-thumb.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2232,12 +2132,172 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/spring-thumb.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 33380,
+		"inputAbbreviatedPath": "\/img\/spring-thumb.jpg",
+		"outputAbbreviatedPath": "\/img\/spring-thumb.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/spring.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 96506,
+		"inputAbbreviatedPath": "\/img\/spring.jpg",
+		"outputAbbreviatedPath": "\/img\/spring.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/index.html": {
 		"fileType": 8192,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/kits\/_footer.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/kits\/_footer.kit",
+		"outputAbbreviatedPath": "\/Users\/bairdm\/Documents\/Personal\/Github\/_footer.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/kits\/_head.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/kits\/_head.kit",
+		"outputAbbreviatedPath": "\/Users\/bairdm\/Documents\/Personal\/Github\/_head.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/kits\/_navigation.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/kits\/_navigation.kit",
+		"outputAbbreviatedPath": "\/Users\/bairdm\/Documents\/Personal\/Github\/_navigation.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/kits\/_scripts.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/kits\/_scripts.kit",
+		"outputAbbreviatedPath": "\/Users\/bairdm\/Documents\/Personal\/Github\/_scripts.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/kits\/about.kit": {
+		"fileType": 2048,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/kits\/about.kit",
+		"outputAbbreviatedPath": "\/about.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 1
+		},
+	"\/kits\/ferst-blerg-perst.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/kits\/ferst-blerg-perst.md",
+		"outputAbbreviatedPath": "\/kits\/ferst-blerg-perst.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/kits\/html-email.kit": {
+		"fileType": 2048,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/kits\/html-email.kit",
+		"outputAbbreviatedPath": "\/Users\/bairdm\/Documents\/Personal\/Github\/html-email.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/kits\/index.kit": {
+		"fileType": 2048,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/kits\/index.kit",
+		"outputAbbreviatedPath": "\/index.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 1
+		},
+	"\/kits\/phone-works.kit": {
+		"fileType": 2048,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/kits\/phone-works.kit",
+		"outputAbbreviatedPath": "\/phone-works.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 1
+		},
+	"\/kits\/ryobitools-redesign.kit": {
+		"fileType": 2048,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/kits\/ryobitools-redesign.kit",
+		"outputAbbreviatedPath": "\/ryobitools-redesign.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 1
+		},
+	"\/kits\/svg\/avo.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/kits\/svg\/avo.kit",
+		"outputAbbreviatedPath": "\/Users\/bairdm\/Documents\/Personal\/Github\/avo.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/kits\/svg\/logo.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/kits\/svg\/logo.kit",
+		"outputAbbreviatedPath": "\/Users\/bairdm\/Documents\/Personal\/Github\/logo.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/kits\/svg\/rbs-logo.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/kits\/svg\/rbs-logo.kit",
+		"outputAbbreviatedPath": "\/Users\/bairdm\/Documents\/Personal\/Github\/rbs-logo.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/kits\/svg\/spring.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/kits\/svg\/spring.kit",
+		"outputAbbreviatedPath": "\/Users\/bairdm\/Documents\/Personal\/Github\/spring.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/kits\/svg\/yer-great.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/kits\/svg\/yer-great.kit",
+		"outputAbbreviatedPath": "\/Users\/bairdm\/Documents\/Personal\/Github\/yer-great.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -2577,140 +2637,11 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/pages\/_footer.kit": {
-		"fileType": 2048,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/pages\/_footer.kit",
-		"outputAbbreviatedPath": "\/_footer.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/pages\/_head.kit": {
-		"fileType": 2048,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/pages\/_head.kit",
-		"outputAbbreviatedPath": "\/_head.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/pages\/_logo.kit": {
-		"fileType": 2048,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/pages\/_logo.kit",
-		"outputAbbreviatedPath": "\/_logo.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/pages\/_navbar.kit": {
-		"fileType": 2048,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/pages\/_navbar.kit",
-		"outputAbbreviatedPath": "\/_navbar.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/pages\/_rbs-logo.kit": {
-		"fileType": 2048,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/pages\/_rbs-logo.kit",
-		"outputAbbreviatedPath": "\/Users\/bairdm\/Documents\/Personal\/Github\/_rbs-logo.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/pages\/_scripts.kit": {
-		"fileType": 2048,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/pages\/_scripts.kit",
-		"outputAbbreviatedPath": "\/_scripts.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/pages\/ferst-blerg-perst.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
-		"fileType": 4096,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/pages\/ferst-blerg-perst.md",
-		"outputAbbreviatedPath": "\/pages\/ferst-blerg-perst.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/pages\/html-email.kit": {
-		"fileType": 2048,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/pages\/html-email.kit",
-		"outputAbbreviatedPath": "\/html-email.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/pages\/index.kit": {
-		"fileType": 2048,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/pages\/index.kit",
-		"outputAbbreviatedPath": "\/index.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/pages\/phone-works.kit": {
-		"fileType": 2048,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/pages\/phone-works.kit",
-		"outputAbbreviatedPath": "\/phone-works.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/pages\/radioboomspecialists.kit": {
-		"fileType": 2048,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/pages\/radioboomspecialists.kit",
-		"outputAbbreviatedPath": "\/radioboomspecialists.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/pages\/ryobitools-redesign.kit": {
-		"fileType": 2048,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/pages\/ryobitools-redesign.kit",
-		"outputAbbreviatedPath": "\/ryobitools-redesign.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/pages\/yer-great.kit": {
-		"fileType": 2048,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/pages\/yer-great.kit",
-		"outputAbbreviatedPath": "\/Users\/bairdm\/Documents\/Personal\/Github\/yer-great.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/phone-works.html": {
 		"fileType": 8192,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/phone-works.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/radioboomspecialists.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/radioboomspecialists.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -2752,22 +2683,6 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/sass\/_shame.scss": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
-		"decimalPrecision": 10,
-		"fileType": 4,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/sass\/_shame.scss",
-		"outputAbbreviatedPath": "\/css\/_shame.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": 0
-		},
 	"\/sass\/custom\/_all.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -2784,15 +2699,47 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/sass\/custom\/_navbar.scss": {
+	"\/sass\/custom\/_base.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/sass\/custom\/_navbar.scss",
-		"outputAbbreviatedPath": "\/sass\/css\/_navbar.css",
+		"inputAbbreviatedPath": "\/sass\/custom\/_base.scss",
+		"outputAbbreviatedPath": "\/sass\/css\/_base.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/sass\/custom\/_footer.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/sass\/custom\/_footer.scss",
+		"outputAbbreviatedPath": "\/sass\/css\/_footer.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/sass\/custom\/_modal.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/sass\/custom\/_modal.scss",
+		"outputAbbreviatedPath": "\/sass\/css\/_modal.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -2895,6 +2842,42 @@
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
+		},
+	"\/Users\/bairdm\/Documents\/Personal\/Github\/index.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Users\/bairdm\/Documents\/Personal\/Github\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/Users\/bairdm\/Documents\/Personal\/Github\/phone-works.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Users\/bairdm\/Documents\/Personal\/Github\/phone-works.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/Users\/bairdm\/Documents\/Personal\/Github\/radioboomspecialists.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Users\/bairdm\/Documents\/Personal\/Github\/radioboomspecialists.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/Users\/bairdm\/Documents\/Personal\/Github\/ryobitools-redesign.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Users\/bairdm\/Documents\/Personal\/Github\/ryobitools-redesign.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		}
 	},
 "hooks": [
