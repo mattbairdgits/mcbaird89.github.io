@@ -249,8 +249,8 @@ html {
 /* Fonts */
 @font-face {
   font-family: 'Sailec-Black';
-  src: url("webfonts/2D0D79_0_0.eot");
-  src: url("webfonts/2D0D79_0_0.eot?#iefix") format("embedded-opentype"), url("webfonts/2D0D79_0_0.woff2") format("woff2"), url("webfonts/2D0D79_0_0.woff") format("woff"), url("webfonts/2D0D79_0_0.ttf") format("truetype"), url("webfonts/2D0D79_0_0.svg#wf") format("svg"); }
+  src: url("../fonts/2D0D79_0_0.eot");
+  src: url("../fonts/2D0D79_0_0.eot?#iefix") format("embedded-opentype"), url("../fonts/2D0D79_0_0.woff2") format("woff2"), url("../fonts/2D0D79_0_0.woff") format("woff"), url("../fonts/2D0D79_0_0.ttf") format("truetype"), url("../fonts/2D0D79_0_0.svg#wf") format("svg"); }
 .row {
   max-width: 68em;
   margin-left: auto;
@@ -317,8 +317,8 @@ header.navigation {
     min-width: 150px;
     max-width: 230px;
     position: absolute;
-    top: -70px;
-    left: -20px; }
+    top: -60px;
+    left: -16px; }
     @media screen and (min-width: 40em) {
       header.navigation .logo {
         width: 65%; } }

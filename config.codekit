@@ -2044,17 +2044,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/rbs-josalbum2.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 97710,
-		"inputAbbreviatedPath": "\/img\/rbs-josalbum2.jpg",
-		"outputAbbreviatedPath": "\/img\/rbs-josalbum2.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/img\/rtr-div.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -2842,42 +2831,6 @@
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
-		},
-	"\/Users\/bairdm\/Documents\/Personal\/Github\/index.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Users\/bairdm\/Documents\/Personal\/Github\/index.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/Users\/bairdm\/Documents\/Personal\/Github\/phone-works.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Users\/bairdm\/Documents\/Personal\/Github\/phone-works.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/Users\/bairdm\/Documents\/Personal\/Github\/radioboomspecialists.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Users\/bairdm\/Documents\/Personal\/Github\/radioboomspecialists.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/Users\/bairdm\/Documents\/Personal\/Github\/ryobitools-redesign.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Users\/bairdm\/Documents\/Personal\/Github\/ryobitools-redesign.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
 		}
 	},
 "hooks": [
