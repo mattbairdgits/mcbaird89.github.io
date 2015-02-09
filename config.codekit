@@ -2,6 +2,15 @@
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
 "creatorBuild": "18493",
 "files": {
+	"\/37signals-pls.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/37signals-pls.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/about.html": {
 		"fileType": 8192,
 		"ignore": 1,
@@ -2152,6 +2161,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/kits\/37signals-pls.kit": {
+		"fileType": 2048,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/kits\/37signals-pls.kit",
+		"outputAbbreviatedPath": "\/37signals-pls.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 1
+		},
 	"\/kits\/_footer.kit": {
 		"fileType": 2048,
 		"ignore": 1,
@@ -2254,6 +2272,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/kits\/svg\/how-37.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/kits\/svg\/how-37.kit",
+		"outputAbbreviatedPath": "\/Users\/bairdm\/Documents\/Personal\/Github\/how-37.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/kits\/svg\/logo.kit": {
 		"fileType": 2048,
 		"ignore": 1,
@@ -2272,12 +2299,39 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/kits\/svg\/sandwich-37.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/kits\/svg\/sandwich-37.kit",
+		"outputAbbreviatedPath": "\/Users\/bairdm\/Documents\/Personal\/Github\/sandwich-37.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/kits\/svg\/spring.kit": {
 		"fileType": 2048,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kits\/svg\/spring.kit",
 		"outputAbbreviatedPath": "\/Users\/bairdm\/Documents\/Personal\/Github\/spring.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/kits\/svg\/who-37.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/kits\/svg\/who-37.kit",
+		"outputAbbreviatedPath": "\/Users\/bairdm\/Documents\/Personal\/Github\/who-37.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/kits\/svg\/why-37.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/kits\/svg\/why-37.kit",
+		"outputAbbreviatedPath": "\/Users\/bairdm\/Documents\/Personal\/Github\/why-37.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},

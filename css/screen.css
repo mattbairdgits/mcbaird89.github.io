@@ -689,7 +689,7 @@ img[src$="-div.png"] {
       -o-transform: scale(1.025);
       transform: scale(1.025); }
 
-/* Project Page Specifics */
+/* I'm so wet */
 #about article .image {
   height: 0;
   padding-bottom: 100%;
@@ -738,6 +738,54 @@ img[src$="-div.png"] {
   height: 250px; }
 #pw .cta-block .button:hover {
   color: #399ed8; }
+
+#signals hr {
+  margin: 1em auto; }
+#signals .info-block {
+  margin-top: 3em; }
+  #signals .info-block a {
+    color: #F17A77; }
+    #signals .info-block a:hover {
+      color: #f5a3a1; }
+#signals .www {
+  background-color: #faf9f6;
+  border-bottom: 1.5em solid white;
+  padding: 1.5em 0; }
+  @media screen and (min-width: 40em) {
+    #signals .www article .text {
+      float: left;
+      display: block;
+      margin-right: 2.3576515979%;
+      width: 74.4105871005%;
+      color: #2B2B2A;
+      margin-top: 1.5em; }
+      #signals .www article .text:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 40em) {
+    #signals .www article .image {
+      float: left;
+      display: block;
+      margin-right: 2.3576515979%;
+      width: 23.2317613015%; }
+      #signals .www article .image:last-child {
+        margin-right: 0; } }
+  #signals .www a {
+    color: #F17A77; }
+    #signals .www a:hover {
+      color: #f5a3a1; }
+#signals .video-wrapper {
+  height: 0;
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative; }
+  #signals .video-wrapper embed,
+  #signals .video-wrapper object,
+  #signals .video-wrapper iframe {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%; }
 
 .footer {
   background-color: #0C233F; }
