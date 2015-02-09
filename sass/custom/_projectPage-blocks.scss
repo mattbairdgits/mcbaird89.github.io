@@ -124,7 +124,7 @@ img[src$="-div.png"] {
     }
 }
 
-/* Project Page Specifics */
+/* I'm so wet */
 #about {
   article {
     .image {
@@ -157,7 +157,6 @@ img[src$="-div.png"] {
 
 
 #rtr {
-
     .title {
         border-color: darken($ryobi-offwhite, 5%)
     }
@@ -184,10 +183,8 @@ img[src$="-div.png"] {
             color: $ryobi-blue;
         }
     }
-
 }
 #pw {
-
     .info-block {
       background-color: $ryobi-offwhite;
     }
@@ -210,5 +207,59 @@ img[src$="-div.png"] {
             color: $ryobi-blue;
         }
     }
+}
 
+#signals {
+  hr {margin: 1em auto;}
+  .info-block {
+    margin-top: 3em;
+
+    a {
+      color: $salmon;
+      &:hover {
+        color: lighten($salmon, 9%);
+      }
+    }
+
+  }
+  .www {
+    background-color: $offwhite;
+    border-bottom: $base-spacing solid lighten($offwhite,5%);
+    padding: $base-spacing 0;
+
+    article {
+      .text {
+        @include media ($medium-screen) {
+          @include span-columns( 9 );
+          color: $offblack;
+          margin-top: $base-spacing;
+        }
+      }
+      .image {
+        @include media ($medium-screen) {
+          @include span-columns( 3 );
+        }
+      }
+    }
+    a {
+      color: $salmon;
+      &:hover {
+        color: lighten($salmon, 9%);
+      }
+    }
+  }
+  .video-wrapper {
+    height: 0;
+    overflow: hidden;
+    padding-bottom: 56.25%;
+  // For ratio 16:9. 75% if ratio is 4:3
+    position: relative;
+
+    embed,
+    object,
+    iframe {
+      @include position(absolute, 0px null null 0px);
+      @include size(100%);
+    }
+  }
 }
