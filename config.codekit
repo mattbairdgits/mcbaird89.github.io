@@ -1943,6 +1943,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/html-email.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/html-email.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/img\/jellyfish-moon-thumb.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -2215,6 +2224,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 1
 		},
+	"\/kits\/email-modules.kit": {
+		"fileType": 2048,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/kits\/email-modules.kit",
+		"outputAbbreviatedPath": "\/Users\/bairdm\/Documents\/Personal\/Github\/email-modules.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/kits\/ferst-blerg-perst.md": {
 		"enableFootnoteSupport": 0,
 		"enableSmartyPants": 1,
@@ -2232,9 +2250,9 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kits\/html-email.kit",
-		"outputAbbreviatedPath": "\/Users\/bairdm\/Documents\/Personal\/Github\/html-email.html",
+		"outputAbbreviatedPath": "\/html-email.html",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 1
 		},
 	"\/kits\/index.kit": {
 		"fileType": 2048,
