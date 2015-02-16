@@ -1011,6 +1011,27 @@ img[src$="-div.png"] {
 .modal-closed {
   overflow: auto; }
 
+@-webkit-keyframes fadeIn {
+  from {
+    fill: rgba(43, 43, 42, 0);
+    stroke-width: 1; }
+  to {
+    fill: #2B2B2A;
+    stroke-width: 0; } }
+@-moz-keyframes fadeIn {
+  from {
+    fill: rgba(43, 43, 42, 0);
+    stroke-width: 1; }
+  to {
+    fill: #2B2B2A;
+    stroke-width: 0; } }
+@keyframes fadeIn {
+  from {
+    fill: rgba(43, 43, 42, 0);
+    stroke-width: 1; }
+  to {
+    fill: #2B2B2A;
+    stroke-width: 0; } }
 #logo #heptagon {
   fill: #2B2B2A; }
 #logo #text {
@@ -1019,7 +1040,47 @@ img[src$="-div.png"] {
 #yer-great {
   max-width: 80%;
   margin: 0 auto;
-  display: block; }
+  display: block;
+  stroke: #5EBFB1;
+  stroke-width: 1;
+  stroke-miterlimit: 10;
+  fill: none; }
   @media screen and (min-width: 40em) {
     #yer-great {
       max-width: 50%; } }
+  #yer-great #this {
+    -webkit-animation: fadeIn 1s 2s ease forwards;
+    -moz-animation: fadeIn 1s 2s ease forwards;
+    animation: fadeIn 1s 2s ease forwards; }
+  #yer-great #this-dot {
+    -webkit-animation: fadeIn 1s 2s ease forwards;
+    -moz-animation: fadeIn 1s 2s ease forwards;
+    animation: fadeIn 1s 2s ease forwards; }
+  #yer-great #site {
+    -webkit-animation: fadeIn 1s 3s ease forwards;
+    -moz-animation: fadeIn 1s 3s ease forwards;
+    animation: fadeIn 1s 3s ease forwards; }
+  #yer-great #looks {
+    -webkit-animation: fadeIn 1s 4s ease forwards;
+    -moz-animation: fadeIn 1s 4s ease forwards;
+    animation: fadeIn 1s 4s ease forwards; }
+  #yer-great #g {
+    -webkit-animation: fadeIn 1s 6s ease forwards;
+    -moz-animation: fadeIn 1s 6s ease forwards;
+    animation: fadeIn 1s 6s ease forwards; }
+  #yer-great #reat {
+    -webkit-animation: fadeIn 1s 6s ease forwards;
+    -moz-animation: fadeIn 1s 6s ease forwards;
+    animation: fadeIn 1s 6s ease forwards; }
+  #yer-great #on {
+    -webkit-animation: fadeIn 1s 7s ease forwards;
+    -moz-animation: fadeIn 1s 7s ease forwards;
+    animation: fadeIn 1s 7s ease forwards; }
+  #yer-great #y {
+    -webkit-animation: fadeIn 1s 8.5s ease forwards;
+    -moz-animation: fadeIn 1s 8.5s ease forwards;
+    animation: fadeIn 1s 8.5s ease forwards; }
+  #yer-great #ou {
+    -webkit-animation: fadeIn 1s 8.5s ease forwards;
+    -moz-animation: fadeIn 1s 8.5s ease forwards;
+    animation: fadeIn 1s 8.5s ease forwards; }
