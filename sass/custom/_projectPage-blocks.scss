@@ -209,8 +209,7 @@ img[src$="-div.png"] {
     }
 }
 
-#signals {
-  hr {margin: 1em auto;}
+#html-email {
   .info-block {
     margin-top: 3em;
 
@@ -222,44 +221,45 @@ img[src$="-div.png"] {
     }
 
   }
-  .www {
-    background-color: $offwhite;
-    border-bottom: $base-spacing solid lighten($offwhite,5%);
-    padding: $base-spacing 0;
+}
 
-    article {
-      .text {
-        @include media ($medium-screen) {
-          @include span-columns( 9 );
-          color: $offblack;
-          margin-top: $base-spacing;
-        }
-      }
-      .image {
-        @include media ($medium-screen) {
-          @include span-columns( 3 );
-        }
+/* .www {
+  background-color: \$offwhite;
+  border-bottom: \$base-spacing solid lighten(\$offwhite,5%);
+  padding: \$base-spacing 0;
+
+  article {
+    .text {
+      @include media (\$medium-screen) {
+        @include span-columns( 9 );
+        color: \$offblack;
+        margin-top: \$base-spacing;
       }
     }
-    a {
-      color: $salmon;
-      &:hover {
-        color: lighten($salmon, 9%);
+    .image {
+      @include media (\$medium-screen) {
+        @include span-columns( 3 );
       }
     }
   }
-  .video-wrapper {
-    height: 0;
-    overflow: hidden;
-    padding-bottom: 56.25%;
-  // For ratio 16:9. 75% if ratio is 4:3
-    position: relative;
-
-    embed,
-    object,
-    iframe {
-      @include position(absolute, 0px null null 0px);
-      @include size(100%);
+  a {
+    color: \$salmon;
+    &:hover {
+      color: lighten(\$salmon, 9%);
     }
   }
 }
+.video-wrapper {
+  height: 0;
+  overflow: hidden;
+  padding-bottom: 56.25%;
+// For ratio 16:9. 75% if ratio is 4:3
+  position: relative;
+
+  embed,
+  object,
+  iframe {
+    @include position(absolute, 0px null null 0px);
+    @include size(100%);
+  }
+} */

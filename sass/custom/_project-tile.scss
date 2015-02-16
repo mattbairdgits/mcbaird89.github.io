@@ -67,3 +67,34 @@
     background-color: white;
     padding: 2.5em 1em;
 }
+
+.text-tile {
+  @include span-columns( 12 );
+  padding: $base-spacing $base-spacing/2;
+  margin-bottom: $base-spacing;
+  @include transition( all 0.5s );
+  text-align: center;
+  color: $lightblue;
+  border: 2px solid $lightblue;
+  @include border-top-radius(2px);
+  @include border-bottom-radius(2px);
+  @include border-left-radius(2px);
+  @include border-right-radius(2px);
+
+  &:hover {
+      @include transform( scale( 1.025 ));
+      color: #FFFFFF;
+      background-color: $lightblue;
+  }
+}
+
+#html-email .text-tile {
+  @include media ($medium-screen) {
+    @include span-columns( 8 );
+    @include shift( 2 );
+  }
+  @include media ($large-screen) {
+    @include span-columns( 4 );
+    @include shift( 0 );
+  }
+}
