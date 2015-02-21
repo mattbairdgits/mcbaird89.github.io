@@ -288,6 +288,9 @@ html {
   .opa-hover:hover, .modal .modal-trigger:hover {
     opacity: 1; }
 
+.no-js .animsition {
+  opacity: 1; }
+
 header.navigation {
   min-height: 100px;
   width: 100%;
@@ -790,53 +793,53 @@ img[src$="-div.png"] {
 #pw .cta-block .button:hover {
   color: #399ed8; }
 
-#html-email .info-block {
+#html-email .info-block, #bloc .info-block {
   margin-top: 3em; }
-  #html-email .info-block a {
+  #html-email .info-block hr, #bloc .info-block hr {
+    width: 60%;
+    margin: 1.5em auto; }
+  #html-email .info-block a, #bloc .info-block a {
     color: #F17A77; }
-    #html-email .info-block a:hover {
+    #html-email .info-block a:hover, #bloc .info-block a:hover {
       color: #f5a3a1; }
 
-/* .www {
-  background-color: \$offwhite;
-  border-bottom: \$base-spacing solid lighten(\$offwhite,5%);
-  padding: \$base-spacing 0;
+.why {
+  background-color: #f9f9f9;
+  padding: 1.5em 0; }
+  .why article {
+    margin-top: 1.5em; }
+    .why article .text {
+      color: #2B2B2A; }
+      @media screen and (min-width: 53.75em) {
+        .why article .text {
+          float: left;
+          display: block;
+          margin-right: 2.3576515979%;
+          width: 65.8807828007%;
+          padding-left: 1.5em;
+          border-left: 1px solid #e0e0e0; }
+          .why article .text:last-child {
+            margin-right: 0; } }
+      .why article .text .quote {
+        border-left: 10px solid #e0e0e0;
+        font-style: italic;
+        margin-left: -1.1538461538em;
+        padding-left: 1.5em; }
+    .why article .image {
+      margin-bottom: 1.5em; }
+      @media screen and (min-width: 53.75em) {
+        .why article .image {
+          float: left;
+          display: block;
+          margin-right: 2.3576515979%;
+          width: 31.7615656014%; }
+          .why article .image:last-child {
+            margin-right: 0; } }
+  .why a {
+    color: #F17A77; }
+    .why a:hover {
+      color: #f5a3a1; }
 
-  article {
-    .text {
-      @include media (\$medium-screen) {
-        @include span-columns( 9 );
-        color: \$offblack;
-        margin-top: \$base-spacing;
-      }
-    }
-    .image {
-      @include media (\$medium-screen) {
-        @include span-columns( 3 );
-      }
-    }
-  }
-  a {
-    color: \$salmon;
-    &:hover {
-      color: lighten(\$salmon, 9%);
-    }
-  }
-}
-.video-wrapper {
-  height: 0;
-  overflow: hidden;
-  padding-bottom: 56.25%;
-// For ratio 16:9. 75% if ratio is 4:3
-  position: relative;
-
-  embed,
-  object,
-  iframe {
-    @include position(absolute, 0px null null 0px);
-    @include size(100%);
-  }
-} */
 .footer {
   background-color: #0C233F; }
   .footer .row {
@@ -1048,39 +1051,45 @@ img[src$="-div.png"] {
   @media screen and (min-width: 40em) {
     #yer-great {
       max-width: 50%; } }
-  #yer-great #this {
-    -webkit-animation: fadeIn 1s 2s ease forwards;
-    -moz-animation: fadeIn 1s 2s ease forwards;
-    animation: fadeIn 1s 2s ease forwards; }
-  #yer-great #this-dot {
-    -webkit-animation: fadeIn 1s 2s ease forwards;
-    -moz-animation: fadeIn 1s 2s ease forwards;
-    animation: fadeIn 1s 2s ease forwards; }
-  #yer-great #site {
-    -webkit-animation: fadeIn 1s 3s ease forwards;
-    -moz-animation: fadeIn 1s 3s ease forwards;
-    animation: fadeIn 1s 3s ease forwards; }
-  #yer-great #looks {
-    -webkit-animation: fadeIn 1s 4s ease forwards;
-    -moz-animation: fadeIn 1s 4s ease forwards;
-    animation: fadeIn 1s 4s ease forwards; }
-  #yer-great #g {
-    -webkit-animation: fadeIn 1s 6s ease forwards;
-    -moz-animation: fadeIn 1s 6s ease forwards;
-    animation: fadeIn 1s 6s ease forwards; }
-  #yer-great #reat {
-    -webkit-animation: fadeIn 1s 6s ease forwards;
-    -moz-animation: fadeIn 1s 6s ease forwards;
-    animation: fadeIn 1s 6s ease forwards; }
-  #yer-great #on {
-    -webkit-animation: fadeIn 1s 7s ease forwards;
-    -moz-animation: fadeIn 1s 7s ease forwards;
-    animation: fadeIn 1s 7s ease forwards; }
-  #yer-great #y {
-    -webkit-animation: fadeIn 1s 8.5s ease forwards;
-    -moz-animation: fadeIn 1s 8.5s ease forwards;
-    animation: fadeIn 1s 8.5s ease forwards; }
-  #yer-great #ou {
-    -webkit-animation: fadeIn 1s 8.5s ease forwards;
-    -moz-animation: fadeIn 1s 8.5s ease forwards;
-    animation: fadeIn 1s 8.5s ease forwards; }
+  @media screen and (max-width: 26.25em) {
+    #yer-great {
+      -webkit-animation: fadeIn 1s 1s ease forwards;
+      -moz-animation: fadeIn 1s 1s ease forwards;
+      animation: fadeIn 1s 1s ease forwards; } }
+  @media screen and (min-width: 40em) {
+    #yer-great #this {
+      -webkit-animation: fadeIn 1s 2s ease forwards;
+      -moz-animation: fadeIn 1s 2s ease forwards;
+      animation: fadeIn 1s 2s ease forwards; }
+    #yer-great #this-dot {
+      -webkit-animation: fadeIn 1s 2s ease forwards;
+      -moz-animation: fadeIn 1s 2s ease forwards;
+      animation: fadeIn 1s 2s ease forwards; }
+    #yer-great #site {
+      -webkit-animation: fadeIn 1s 3s ease forwards;
+      -moz-animation: fadeIn 1s 3s ease forwards;
+      animation: fadeIn 1s 3s ease forwards; }
+    #yer-great #looks {
+      -webkit-animation: fadeIn 1s 4s ease forwards;
+      -moz-animation: fadeIn 1s 4s ease forwards;
+      animation: fadeIn 1s 4s ease forwards; }
+    #yer-great #g {
+      -webkit-animation: fadeIn 1s 6s ease forwards;
+      -moz-animation: fadeIn 1s 6s ease forwards;
+      animation: fadeIn 1s 6s ease forwards; }
+    #yer-great #reat {
+      -webkit-animation: fadeIn 1s 6s ease forwards;
+      -moz-animation: fadeIn 1s 6s ease forwards;
+      animation: fadeIn 1s 6s ease forwards; }
+    #yer-great #on {
+      -webkit-animation: fadeIn 1s 7s ease forwards;
+      -moz-animation: fadeIn 1s 7s ease forwards;
+      animation: fadeIn 1s 7s ease forwards; }
+    #yer-great #y {
+      -webkit-animation: fadeIn 1s 8.5s ease forwards;
+      -moz-animation: fadeIn 1s 8.5s ease forwards;
+      animation: fadeIn 1s 8.5s ease forwards; }
+    #yer-great #ou {
+      -webkit-animation: fadeIn 1s 8.5s ease forwards;
+      -moz-animation: fadeIn 1s 8.5s ease forwards;
+      animation: fadeIn 1s 8.5s ease forwards; } }
