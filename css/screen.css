@@ -569,6 +569,8 @@ header.navigation {
   border-top-right-radius: 2px; }
   .text-tile:last-child {
     margin-right: 0; }
+  .text-tile:last-child {
+    margin-bottom: 6em; }
   .text-tile:hover {
     -webkit-transform: scale(1.025);
     -moz-transform: scale(1.025);
@@ -795,13 +797,14 @@ img[src$="-div.png"] {
 
 #html-email .info-block, #bloc .info-block {
   margin-top: 3em; }
-  #html-email .info-block hr, #bloc .info-block hr {
-    width: 60%;
-    margin: 1.5em auto; }
   #html-email .info-block a, #bloc .info-block a {
     color: #F17A77; }
     #html-email .info-block a:hover, #bloc .info-block a:hover {
       color: #f5a3a1; }
+
+#bloc hr {
+  width: 60%;
+  margin: 1.5em auto; }
 
 .why {
   background-color: #f9f9f9;

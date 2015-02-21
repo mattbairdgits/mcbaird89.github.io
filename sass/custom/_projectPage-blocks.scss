@@ -212,8 +212,7 @@ img[src$="-div.png"] {
 #html-email, #bloc {
   .info-block {
     margin-top: 3em;
-
-    hr { width: 60%; margin: $base-spacing auto; }
+    
     a {
       color: $salmon;
       &:hover {
@@ -223,6 +222,8 @@ img[src$="-div.png"] {
 
   }
 }
+
+#bloc { hr { width: 60%; margin: $base-spacing auto; } }
 
 .why {
   background-color: #f9f9f9;
