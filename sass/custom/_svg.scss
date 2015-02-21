@@ -30,20 +30,25 @@
   stroke-width: 1;
   stroke-miterlimit: 10;
   fill: none;
+  @include media (max-width $small-screen) {
+    @include animation(fadeIn 1s 1s ease forwards);
+  }
 
-  #this { @include animation(fadeIn 1s 2s ease forwards); }
-  #this-dot { @include animation(fadeIn 1s 2s ease forwards); }
+  @include media (min-width $medium-screen) {
+    #this { @include animation(fadeIn 1s 2s ease forwards); }
+    #this-dot { @include animation(fadeIn 1s 2s ease forwards); }
 
-  #site { @include animation(fadeIn 1s 3s ease forwards); }
+    #site { @include animation(fadeIn 1s 3s ease forwards); }
 
-  #looks { @include animation(fadeIn 1s 4s ease forwards); }
+    #looks { @include animation(fadeIn 1s 4s ease forwards); }
 
-  #g { @include animation(fadeIn 1s 6s ease forwards); }
-  #reat { @include animation(fadeIn 1s 6s ease forwards); }
+    #g { @include animation(fadeIn 1s 6s ease forwards); }
+    #reat { @include animation(fadeIn 1s 6s ease forwards); }
 
-  #on { @include animation(fadeIn 1s 7s ease forwards); }
+    #on { @include animation(fadeIn 1s 7s ease forwards); }
 
-  #y { @include animation(fadeIn 1s 8.5s ease forwards); }
-  #ou { @include animation(fadeIn 1s 8.5s ease forwards); }
+    #y { @include animation(fadeIn 1s 8.5s ease forwards); }
+    #ou { @include animation(fadeIn 1s 8.5s ease forwards); }
+  }
 
 }
