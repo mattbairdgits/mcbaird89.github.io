@@ -1,0 +1,16 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Matt Baird -- Made everything the site and everything on it -- @mattbairdtweets
+
+# THANKS
+
+    Thank you, people of the web community, who so kindly hand out knowledge for free 90% of the time
+
+# TECHNOLOGY COLOPHON
+
+    CSS3, HTML5
+    jQuery, Modernizr, Normalize.css, Animsition, Vivus
+    Codekit
