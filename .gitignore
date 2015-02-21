@@ -1,6 +1,7 @@
 *.log
 **/.sass-cache
 **/.sass-cache/*
+**sass/.sass-cache/*
 
 __MACOSX
 .DS_Store
