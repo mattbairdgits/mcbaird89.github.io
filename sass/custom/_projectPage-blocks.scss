@@ -226,12 +226,20 @@ img[src$="-div.png"] {
 #uber { hr { width: 60%; margin: $base-spacing auto; } }
 
 .why {
-  background-color: #09091A;
+  background-color: #E6E6E9;
   background-position: 100% 0;
   padding: $base-spacing 0;
-  color: #F2F2F4;
+  color: #3A3A48;
 
-
+    p:nth-child(3){
+      background-color: #09091A;
+      padding: $base-spacing;
+      margin-bottom: $base-spacing;
+      color: #F2F2F4;
+      @include media ($large-screen) {
+        padding: $base-spacing*3;
+      }
+    }
     .text {
       margin: $base-spacing 0;
       @include media ($large-screen) {
