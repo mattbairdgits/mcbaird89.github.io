@@ -7,10 +7,10 @@
 
 # THANKS
 
-    Thank you, people of the web community, who so kindly hand out knowledge for free 90% of the time
+    Thank you, people of the web community, who so kindly hand out knowledge for free 98.36% of the time
 
 # TECHNOLOGY COLOPHON
 
-    CSS3, HTML5
-    jQuery, Modernizr, Normalize.css, Animsition, Vivus
+    CSS3, HTML5, jQuery
+    Modernizr, Normalize.css, Animsition
     Codekit
