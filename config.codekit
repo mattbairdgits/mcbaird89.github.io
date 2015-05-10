@@ -219,6 +219,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/bloc-pls.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bloc-pls.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/bower_components\/animsition\/dist\/css\/animsition.css": {
 		"fileType": 16,
 		"ignore": 0,
@@ -2370,40 +2379,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/bower_components\/vivus\/dist\/vivus.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/vivus\/dist\/vivus.js",
-		"outputAbbreviatedPath": "\/bower_components\/vivus\/dist\/min\/vivus-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/bower_components\/vivus\/dist\/vivus.min.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/vivus\/dist\/vivus.min.js",
-		"outputAbbreviatedPath": "\/bower_components\/vivus\/dist\/min\/vivus.min-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/bower_components\/vivus\/readme.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
-		"fileType": 4096,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/vivus\/readme.md",
-		"outputAbbreviatedPath": "\/bower_components\/vivus\/readme.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/css\/screen.css": {
 		"fileType": 16,
 		"ignore": 1,
@@ -2871,15 +2846,6 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kits\/svg\/why-bloc.kit",
 		"outputAbbreviatedPath": "\/Users\/bairdm\/Documents\/Personal\/Github\/why-bloc.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/kits\/svg\/yer-great.kit": {
-		"fileType": 2048,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/kits\/svg\/yer-great.kit",
-		"outputAbbreviatedPath": "\/Users\/bairdm\/Documents\/Personal\/Github\/yer-great.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -3469,14 +3435,8 @@
 	"\/js\/plugins.js": [
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/bower_components\/vivus\/dist\/vivus.min.js",
-			"position": 0,
-			"type": 1
-			},
-		{
-			"followForSyntaxChecking": 1,
 			"linkedFileAbbreviatedPath": "\/bower_components\/animsition\/dist\/js\/jquery.animsition.min.js",
-			"position": 1,
+			"position": 0,
 			"type": 1
 			}
 		]
