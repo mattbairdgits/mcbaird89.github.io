@@ -27,25 +27,17 @@ header.navigation {
     @include clearfix;
     @include outer-container;
     padding-right: $base-spacing;
+    margin-top: 2em;
+    margin-bottom: 2em;
     position: relative;
     z-index: 9999;
-  }
 
-  .logo {
-    float: left;
-    width: 45%;
-    min-width: 150px;
-    max-width: 230px;
-    position: absolute;
-    top: -60px;
-    left: -16px;
-
-
-    @include media ($medium-screen) {
-      width: 65%;
+    @include media ($small-screen) {
+      margin-top: 3em;
     }
+
     @include media ($horizontal-bar-mode) {
-      width: 85%;
+      margin-top: 6em;
     }
   }
 
@@ -60,21 +52,20 @@ header.navigation {
     display: block;
     float: right;
     font-weight: 700;
-    line-height: $navigation-height;
-    margin: 0;
-    padding: 0 2em;
+    margin-top: 0.5em;
+    padding: 1em 2em;
+    border: 2px solid $lightblue;
     text-transform: uppercase;
+    letter-spacing: 2px;
 
     @include media ($horizontal-bar-mode) {
       display: none;
     }
 
     &:hover {
-      color: $navigation-color-hover;
-      @include transition( all 0.36s );
       color: $white;
       background-color: $lightblue;
-
+      @include transition( all 0.36s );
       @include border-left-radius(2px);
 
       @include media ($horizontal-bar-mode) {
@@ -120,44 +111,58 @@ header.navigation {
 
   ul li.nav-link {
     display: block;
-    line-height: $navigation-height - 25px;
     overflow: hidden;
     text-align: right;
     width: 100%;
     z-index: 9999;
+    margin-right: 3em;
+    &:last-child {
+      margin-right:0;
+    }
 
     @include media ($horizontal-bar-mode) {
       background: transparent;
       display: inline;
-      line-height: $navigation-height - 25px;
       text-decoration: none;
       width: auto;
     }
 
     a {
-      color: $navigation-color;
       display: inline-block;
+      margin-top: 1em;
+      padding: 1em 0em;
+      color: $navigation-color;
+      line-height:2em;
+      text-decoration: underline;
       font-weight: 400;
-      letter-spacing: 2px;
-      text-transform: uppercase;
-      padding: 0 2em;
 
-
-      @include media ($horizontal-bar-mode) {
-
-      }
+      @include transition( all 0.36s );
 
       &:hover {
-        @include transition( all 0.36s );
         color: $white;
         background-color: $lightblue;
-        @include border-left-radius(2px);
+        padding: 1em 2em;
+        text-decoration: none;
+      }
 
+      @include media ($horizontal-bar-mode) {
+        margin: 0em;
+        padding: 1em 1em 0.25em 1em;
 
-        @include media ($horizontal-bar-mode) {
-          @include border-right-radius(2px);
+        border: none;
+        border-bottom: 2px solid $lightblue;
+        text-decoration: none;
+
+        &:hover {
+          border-bottom: none;
+          padding: 1em;
+          @include border-top-radius(3em);
+          @include border-bottom-radius(3em);
+          @include border-left-radius(3em);
+          @include border-right-radius(3em);
         }
       }
+
     }
   }
 
