@@ -62,7 +62,3 @@
         e.stopPropagation();
       });
     });
-
-    $(document).ready(function() {
-      new Vivus('yer-great', {type: 'scenario'});
-    });
