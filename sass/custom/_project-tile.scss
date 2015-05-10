@@ -7,18 +7,10 @@
     }
 
     .og-row {
-        margin-bottom: 4em;
+        margin-bottom: 2em;
         padding-bottom: $base-spacing;
-        border-bottom: 2px solid lighten($darkblue, 20%);
     }
     h1{ color:$salmon; text-align: center; padding: 0 0.4em; }
-    p {
-      color: lighten($salmon, 15%);
-      font-size: 0.6*$base-font-size;
-      text-decoration: line-through;
-      text-align: center;
-      font-style: italic;
-    }
 }
 
 .modal-tile {
