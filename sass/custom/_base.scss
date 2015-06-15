@@ -11,7 +11,6 @@
 }
 
 .background { background-size: cover; }
-.txtcenter { text-align:center; }
 .opa-hover {
     opacity:0.85;
     @include transition-duration(0.36s);

@@ -1,6 +1,8 @@
 .project-landing {
-    padding: 2em 0 3em;
+    padding-bottom: 3em;
+    text-align: center;
     hr { width: 20%; margin: $base-spacing auto; }
+    p { font-size: 1em; }
     .image {
       @include media ($medium-screen) {
         @include span-columns( 6 );
@@ -13,90 +15,71 @@ img[src$="-div.png"] {
     margin: 0em 0em 2em;
 }
 
-.image-block, .cta-block, .info-block {
-    padding: 4em 0;
-    a { font-weight: bold; }
-    hr { width: 50%; }
-}
+.info-block, .cta-block {
+  padding: 4em 0;
 
-.image-block {
-    hr { margin: $base-spacing auto; }
-    .text, .image {
-      @include media ($medium-screen) {
-        @include span-columns( 9 );
-        @include shift( 1.5 );
-      }
-    }
-    img { margin: $base-spacing 0em; }
-
-}
-
-.cta-block {
-
-    .background, article {
-      text-align: center;
-
-      @include media ($large-screen) {
-        text-align: left;
-        @include span-columns( 6 );
-      }
-    }
-
-    .background {
-      margin-bottom: $base-spacing;
-
-      @include media ($large-screen) {
-        margin-bottom: 0em;
-      }
-    }
-
-    hr {
-      margin-left: auto; margin-right: auto;
-
-      @include media ($large-screen) {
-        margin-left: 0em; margin-right: 0em;
-      }
-    }
-
-    .button {
-        width: 80%;
-        display: block; margin: 0px auto 20px; position:  relative; top: 42%;
-        color: #FFFFFF; border: 2px solid #FFFFFF; padding: 7px 0;
-        font-family: 'Open Sans', Helvetica, Arial, sans-serif; text-transform: uppercase; font-weight: bold; text-align: center;
-        @include transition( all 0.5s );
-        @include border-top-radius(2px);
-        @include border-bottom-radius(2px);
-        @include border-left-radius(2px);
-        @include border-right-radius(2px);
-
-        &:hover {
-          background-color: #FFFFFF;
-        }
-    }
-
-}
-
-.info-block {
   h3 {
     line-height: 1em;
   }
-  .text-only {
+
+  hr {
+    width: 50%;
+  }
+
+  article {
     @include media ($large-screen) {
       @include span-columns( 10 );
       @include shift( 1 );
     }
   }
+
+  .image {
+    @include media ($medium-screen) {
+      @include span-columns( 12 );
+    }
+  }
+
+  p {
+
+    a, a.inline {
+      color: $salmon;
+      font-weight: bold;
+      @include transition-duration(0.36s);
+
+      &:hover {
+        color: lighten($salmon, 5%);
+        border-color: lighten($salmon, 5%);
+      }
+    }
+
+    a {
+      border-bottom: 2px solid $salmon;
+      line-height: 2;
+    }
+
+    a.inline {
+      line-height: $base-line-height;
+      border-bottom: none;
+      text-decoration: underline;
+    }
+  }
+
+}
+
+.info-block {
+  background-color: $offwhite;
+
   article {
-    .text {
-      @include media ($medium-screen) {
-        @include span-columns( 9 );
-      }
-    }
-    .image {
-      @include media ($medium-screen) {
-        @include span-columns( 3 );
-      }
-    }
+    margin-bottom: $base-spacing;
+  }
+}
+
+.cta-block {
+  p {
+    text-align: center;
+  }
+  article {
+    margin-bottom: $base-spacing*2;
   }
 }
 
@@ -105,11 +88,12 @@ img[src$="-div.png"] {
     padding: 4em 0 2.5em;
 
     h4 {
+      text-align: center;
       @include transition-duration(0.36s);
       a {
-
         color: $salmon;
         @include transition-duration(0.36s);
+
         &:hover {
           color: lighten($salmon, 5%);
           @include transform( scale( 1.025 ));
@@ -126,7 +110,20 @@ img[src$="-div.png"] {
 
 /* I'm so wet */
 #about {
+  .info-block {
+    background-color: white;
+    text-align: center;
+  }
+  hr {
+    display: block;
+    margin: $base-spacing auto;
+  }
   article {
+    .image-wrapper {
+      margin-top: $base-spacing;
+      @include span-columns( 5 );
+      @include shift( 3.5 );
+    }
     .image {
       height: 0;
       padding-bottom: 100%;
@@ -138,129 +135,6 @@ img[src$="-div.png"] {
       &:hover {
         background-position: 100%;
       }
-      @include media ($medium-screen) {
-        padding-bottom: 23.2317613015%;
-      }
-    }
-    .text {
-        margin-top: 1.5em;
-    }
-    a {
-      color: $salmon;
-
-      &:hover {
-        color: lighten($salmon, 13%);
-      }
     }
   }
-}
-
-
-#rtr {
-    .title {
-        border-color: darken($ryobi-offwhite, 5%)
-    }
-
-    .info-block {
-        background-color: $ryobi-offwhite;
-    }
-
-    .modal-block {
-        h4, p {color:white}
-    }
-
-    .cta-block {
-        h4, p {
-            color: $offblack;
-        }
-        .background {
-            background-image: url("../img/rtr-webcta.jpg");
-            height: 250px;
-            // @include box-shadow(inset 0px 0px 0px 3px rgba(255,255,255,0.3));
-        }
-        .button {top: 32%;}
-        .button:hover {
-            color: $ryobi-blue;
-        }
-    }
-}
-#pw {
-    .info-block {
-      background-color: $ryobi-offwhite;
-    }
-
-    .one {
-        background: $offwhite;
-        h4, p {color: darken($offwhite, 70%);}
-    }
-
-    .cta-block {
-        h4, p {
-            color: $offblack;
-        }
-        .background {
-            background-image: url("../img/pw-webcta.jpg");
-            height: 250px;
-            // @include box-shadow(inset 0px 0px 0px 3px rgba(255,255,255,0.3));
-        }
-        .button:hover {
-            color: $ryobi-blue;
-        }
-    }
-}
-
-#html-email, #uber {
-  .info-block {
-    margin-top: 3em;
-
-    a {
-      color: $salmon;
-      &:hover {
-        color: lighten($salmon, 9%);
-      }
-    }
-
-  }
-}
-
-#uber { hr { width: 60%; margin: $base-spacing auto; } }
-
-.why {
-  background-color: #E6E6E9;
-  background-position: 100% 0;
-  padding: $base-spacing 0;
-  color: #3A3A48;
-
-    p:nth-child(3){
-      background-color: #09091A;
-      padding: $base-spacing;
-      margin-bottom: $base-spacing;
-      color: #F2F2F4;
-      @include media ($large-screen) {
-        padding: $base-spacing*3;
-      }
-    }
-    .text {
-      margin: $base-spacing 0;
-      @include media ($large-screen) {
-        @include span-columns( 10 );
-        @include shift( 1 );
-      }
-    }
-    iframe {
-      width: 97%;
-      display: block;
-      margin: 0 auto;
-      margin-bottom: $base-spacing;
-      @include media ($large-screen) {
-        @include span-columns( 10 );
-        @include shift( 1 );
-      }
-    }
-  }
-  a {
-    color: $salmon;
-    &:hover {
-      color: lighten($salmon, 9%);
-    }
 }

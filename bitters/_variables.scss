@@ -1,11 +1,11 @@
 // Typography
 $sans-serif: 'Sailec-Black', $helvetica;
-$serif: $georgia;
+$serif: "ff-tisa-web-pro",$georgia;
 
-$base-font-family: $sans-serif;
+$base-font-family: $serif;
 
-$header-font-family: $base-font-family;
-$navigation-font-family: $base-font-family;
+$header-font-family: $sans-serif;
+$navigation-font-family: $sans-serif;
 
 // Font Sizes
 $base-font-size: 1em;
@@ -39,17 +39,11 @@ $darkblack: #121212;
 $black: #272727;
 $white: #FFFFFF;
 $offblack: #2B2B2A;
-$offwhite: #faf9f6;
+$offwhite: #FAF9F6;
 $lightblue: #5DBFB1;
 $darkblue: #0C233F;
 $salmon: #F17A77;
 $gray: #DDDDDD;
-
-$ryobi-blue: #399ed8;
-$ryobi-green: #c2d953;
-$ryobi-black: #494949;
-$ryobi-red: #ee2e24;
-$ryobi-offwhite: #f5f4f0;
 
 // Background Color
 $base-background-color: white;

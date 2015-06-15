@@ -1,32 +1,69 @@
 .selected-works {
     background-color: $darkblue;
-    padding: 2em 0;
-
-    @include media ($medium-screen) {
-      padding: 4em 0;
-    }
+    padding: $base-spacing*2 0;
 
     .og-row {
-        margin-bottom: 2em;
+        margin-bottom: $base-spacing*2;
         padding-bottom: $base-spacing;
     }
     h1{ color:$salmon; text-align: center; padding: 0 0.4em; }
 }
 
-.modal-tile {
+.feature {
   @include span-columns( 12 );
-  margin-bottom: $base-spacing - 0.25em;
+  margin-bottom: $base-spacing*2;
+  text-align: center;
+  @include transition( all 0.5s );
 
-  @include media ($medium-screen) {
-    @include span-columns( 8 );
-    @include shift( 2 );
-  }
-  @include media ($large-screen) {
-    @include span-columns( 4 );
-    @include shift( 0 );
-  }
-  svg {
-    background: white;
+  .project-summaryContain {
+    background-color: $lightblue;
+    color: white;
+    padding: 1.5em 0em;
+
+      h4 {
+      	position: relative;
+      	overflow: hidden;
+        padding: 0.5em 0;
+
+        &::after {
+        	position: absolute;
+        	bottom: 0;
+          right: 0;
+        	width: 100%;
+        	height: 3px;
+        	background: white;
+        	content: '';
+          @include transition( transform 0.35s ease-out );
+        	@include transform( translate3d(100%,0,0) );
+        }
+      }
+    }
+    .project-summary {
+      width: 80%;
+      margin: 0 auto;
+    }
+    em {
+      text-transform: none;
+      letter-spacing: 0px;
+    }
+
+      &:hover {
+          @include transform( scale( 1.025 ));
+
+          h4::after {
+            @include transform( translate3d(0,0,0));
+          }
+      }
+}
+
+.feature-image {
+  @include linear-gradient(-25deg, $lightblue 0%, $darkblue 100%);
+
+  img {
+    display: block;
+    margin: 0 auto;
+    max-width: 600px;
+    width: 100%;
   }
 }
 
@@ -34,6 +71,7 @@
   @include span-columns( 12 );
   @include transition( all 0.5s );
   color:#555;
+  text-align: center;
   margin-bottom: $base-spacing;
 
   @include media ($medium-screen) {
@@ -59,38 +97,4 @@
 .project-summaryContain {
     background-color: white;
     padding: 2.5em 1em;
-}
-
-.text-tile {
-  @include span-columns( 12 );
-  padding: $base-spacing $base-spacing/2;
-  margin-bottom: $base-spacing;
-  @include transition( all 0.5s );
-  text-align: center;
-  color: $lightblue;
-  border: 2px solid $lightblue;
-  @include border-top-radius(2px);
-  @include border-bottom-radius(2px);
-  @include border-left-radius(2px);
-  @include border-right-radius(2px);
-
-  &:last-child {margin-bottom: $base-spacing*4;}
-
-  &:hover {
-      @include transform( scale( 1.025 ));
-      color: #FFFFFF;
-      background-color: $lightblue;
-  }
-}
-
-#html-email .text-tile {
-  @include media ($medium-screen) {
-    @include span-columns( 8 );
-    @include shift( 2 );
-
-  }
-  @include media ($large-screen) {
-    @include span-columns( 4 );
-    @include shift( 0 );
-  }
 }

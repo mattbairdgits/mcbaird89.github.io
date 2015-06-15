@@ -1,16 +1,37 @@
-.modal-column {
-  @include span-columns( 6 of 12 );
 
-  @include media ($medium-screen) {
-    @include span-columns( 4 of 8 );
-  }
+.modal-caseStudy {
   @include media ($large-screen) {
-    @include span-columns( 3 of 6 );
+    @include span-columns( 10 );
+    @include shift( 1 );
+  }
+  .modal {
+    @include span-columns( 4 );
+    @include omega(3n);
+  }
+}
+
+
+.modal-tile {
+  margin-bottom: $base-spacing;
+
+  .modal {
+    @include media($small-screen-only) {
+      @include span-columns( 6 );
+      @include omega(2n);
+    }
+    @include media($medium-screen) {
+      @include span-columns( 2 );
+    }
+  }
+
+  svg {
+    background: white;
   }
 }
 
 .modal {
     ///////////////////////////////////////////////////////////////////////////////////
+
   $base-border-color: gainsboro !default;
   $base-border-radius: 3px !default;
   $base-background-color: white !default;

@@ -13,11 +13,8 @@ $horizontal-bar-mode: $large-screen;
   float: left;
   width: 45%;
   top: -1em;
-  min-width: 130px;
-  max-width: 230px;
+  min-width: 130px; max-width: 230px;
   position: absolute;
-
-
 
   @include media ($small-screen) {
     top: -4em;
