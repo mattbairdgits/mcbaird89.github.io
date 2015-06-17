@@ -24,8 +24,9 @@
     }
   }
 
-  svg {
+  img[src$=".svg"] {
     background: white;
+    width: 100%;
   }
 }
 

@@ -219,6 +219,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/bloc-pls.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bloc-pls.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/bower_components\/animsition\/bower.json": {
 		"fileType": 524288,
 		"ignore": 1,
@@ -3171,51 +3180,6 @@
 		"outputAbbreviatedPath": "\/ryobitools-redesign.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 1
-		},
-	"\/kits\/svg\/avo.kit": {
-		"fileType": 2048,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/kits\/svg\/avo.kit",
-		"outputAbbreviatedPath": "\/Users\/bairdm\/Documents\/Personal\/Github\/avo.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/kits\/svg\/logo.kit": {
-		"fileType": 2048,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/kits\/svg\/logo.kit",
-		"outputAbbreviatedPath": "\/Users\/bairdm\/Documents\/Personal\/Github\/logo.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/kits\/svg\/rbs-logo.kit": {
-		"fileType": 2048,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/kits\/svg\/rbs-logo.kit",
-		"outputAbbreviatedPath": "\/Users\/bairdm\/Documents\/Personal\/Github\/rbs-logo.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/kits\/svg\/spring.kit": {
-		"fileType": 2048,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/kits\/svg\/spring.kit",
-		"outputAbbreviatedPath": "\/Users\/bairdm\/Documents\/Personal\/Github\/spring.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/kits\/svg\/why-bloc.kit": {
-		"fileType": 2048,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/kits\/svg\/why-bloc.kit",
-		"outputAbbreviatedPath": "\/Users\/bairdm\/Documents\/Personal\/Github\/why-bloc.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
 		},
 	"\/neat\/_neat-helpers.scss": {
 		"createSourceMap": 0,

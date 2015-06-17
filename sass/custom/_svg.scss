@@ -1,26 +1,19 @@
-$horizontal-bar-mode: $large-screen;
 
-#logo {
-  #heptagon {
-    fill: $darkblue;
-  }
-  #text {
-    fill: #FFFFFF;
-  }
-}
 
-.logo {
-  float: left;
-  width: 45%;
-  top: -1em;
-  min-width: 130px; max-width: 230px;
+.logo-container {
+  max-width: 165px;
   position: absolute;
+  @include span-columns ( 7 );
+  padding-left: 10px;
 
   @include media ($small-screen) {
-    top: -4em;
-    width: 75%;
+    width: em(180);
+    max-width: 230px;
+    left: 1em;
+    top: -1em;
   }
-  @include media ($horizontal-bar-mode) {
-    width: 85%;
+  @include media ($large-screen) {
+    width: em(230);
+    top: -4em;
   }
 }
