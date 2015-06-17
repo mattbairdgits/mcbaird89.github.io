@@ -1,6 +1,11 @@
 .project-landing {
-    padding-bottom: 3em;
+    padding: 2em 0em 3em;
     text-align: center;
+
+    @include media ($medium-screen) {
+      padding-top: 0em;
+    }
+
     hr { width: 20%; margin: $base-spacing auto; }
     p { font-size: 1em; }
     .image {
