@@ -2987,24 +2987,24 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/spring-thumb.jpg": {
-		"fileType": 16384,
+	"\/img\/spring-thumb.png": {
+		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 33380,
-		"inputAbbreviatedPath": "\/img\/spring-thumb.jpg",
-		"outputAbbreviatedPath": "\/img\/spring-thumb.jpg",
+		"initialSize": 35829,
+		"inputAbbreviatedPath": "\/img\/spring-thumb.png",
+		"outputAbbreviatedPath": "\/img\/spring-thumb.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/spring.jpg": {
-		"fileType": 16384,
+	"\/img\/spring.png": {
+		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 96506,
-		"inputAbbreviatedPath": "\/img\/spring.jpg",
-		"outputAbbreviatedPath": "\/img\/spring.jpg",
+		"initialSize": 184342,
+		"inputAbbreviatedPath": "\/img\/spring.png",
+		"outputAbbreviatedPath": "\/img\/spring.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3178,6 +3178,15 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kits\/ryobitools-redesign.kit",
 		"outputAbbreviatedPath": "\/ryobitools-redesign.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 1
+		},
+	"\/kits\/stripe-pls.kit": {
+		"fileType": 2048,
+		"ignore": 0,
+		"ignoreWasSetByUser": 1,
+		"inputAbbreviatedPath": "\/kits\/stripe-pls.kit",
+		"outputAbbreviatedPath": "\/stripe-pls.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 1
 		},
@@ -3731,6 +3740,15 @@
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
+		},
+	"\/stripe-pls.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/stripe-pls.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		}
 	},
 "hooks": [
