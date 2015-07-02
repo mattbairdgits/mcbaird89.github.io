@@ -67,12 +67,18 @@
   }
 }
 
-.project-tile {
+.project-tile, .figure-tile {
   @include span-columns( 12 );
-  @include transition( all 0.5s );
-  color:#555;
   text-align: center;
   margin-bottom: $base-spacing;
+
+  img { display: block; }
+  h4 { font-weight: 700; line-height: 1.25em; }
+}
+
+.project-tile {
+  color:#555;
+  @include transition( all 0.5s );
 
   @include media ($medium-screen) {
     @include span-columns( 8 );
@@ -82,18 +88,33 @@
     @include span-columns( 4 );
     @include shift( 0 );
   }
-  img {display:block;}
-  h4 {
-      font-weight: 700;
-      line-height:1.25em;
-  }
   &:hover {
       @include transform( scale( 1.025 ));
       color: $salmon;
   }
 }
+.figure-tile {
+  img{
+    border: 1em solid $offblack;
+    border-top-width: 2.5em;
+    border-bottom-width: 2.5em;
+    border-radius: 1em;
+  }
 
+  @include media ($medium-screen) {
+    @include span-columns( 4.5 );
+    @include shift( 1 );
+  }
+  &:nth-child(even) {
+    @include media ($medium-screen) {
+      @include omega();
+    }
+  }
+}
 
+.project-summaryContain, .figure-summaryContain {
+    padding: $base-spacing 0em;
+}
 .project-summaryContain {
     background-color: white;
     padding: 2.5em 1em;

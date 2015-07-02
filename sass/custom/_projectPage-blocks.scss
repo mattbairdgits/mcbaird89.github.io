@@ -1,5 +1,5 @@
 .project-landing {
-    padding: 2em 0em 3em;
+    padding: $base-spacing*2 0em $base-spacing*4;
     text-align: center;
 
     @include media ($medium-screen) {
@@ -17,11 +17,11 @@
 }
 
 img[src$="-div.png"] {
-    margin: 0em 0em 2em;
+    margin-bottom: 2em;
 }
 
-.info-block, .cta-block {
-  padding: 4em 0;
+.info-block, .cta-block, .figure-block, .figure-tile-block {
+  padding: $base-spacing*4 0;
 
   h3 {
     line-height: 1em;
@@ -45,7 +45,9 @@ img[src$="-div.png"] {
   }
 
   p {
-
+    &:last-child {
+      margin-bottom: 0;
+    }
     a, a.inline {
       color: $salmon;
       font-weight: bold;
@@ -71,12 +73,8 @@ img[src$="-div.png"] {
 
 }
 
-.info-block {
+.info-block, .figure-tile-block {
   background-color: $offwhite;
-
-  article {
-    margin-bottom: $base-spacing;
-  }
 }
 
 .cta-block {
@@ -87,6 +85,27 @@ img[src$="-div.png"] {
     margin-bottom: $base-spacing*2;
   }
 }
+
+.figure-block {
+  text-align: center;
+
+  .head-img {
+    margin-top: $base-spacing;
+    margin-bottom: $base-spacing;
+  }
+  figure, .figure-text {
+    margin: 0;
+    @include media ($medium-screen) {
+      @include span-columns( 10 );
+      @include shift( 1 );
+    }
+  }
+  .figure-text {
+    margin-top: 1em;
+    text-align: center;
+  }
+}
+
 
 .next {
     background-color: $darkblue;
@@ -113,7 +132,6 @@ img[src$="-div.png"] {
     }
 }
 
-/* I'm so wet */
 #about {
   .info-block {
     background-color: white;
@@ -157,6 +175,50 @@ img[src$="-div.png"] {
     transform: translateY(0);
   }
 }
+
+
+#vulcun {
+  .vulcan-logo {
+    max-width: 200px;
+    margin: 0 auto $base-spacing;
+  }
+  .landing {
+    text-align: center;
+    color: white;
+    padding: 8em 0;
+    @include linear-gradient( 135deg, $darkblue, #525066 );
+
+    article {
+      @include animation( fadeInUp 1s ease 1s both );
+      @include media ($medium-screen) {
+        @include span-columns( 10 );
+        @include shift( 1 );
+      }
+    }
+    hr {
+      display: block;
+      width: 45%;
+      margin: $base-spacing auto $base-spacing;
+    }
+  }
+  .info-block article {
+    margin-bottom: 0em;
+  }
+  .head-img {
+    max-width: 209px;
+  }
+  .cta-block {
+    background-color: $darkblue;
+    text-align: center;
+
+    h3 {
+      margin-bottom: $base-spacing;
+      font-size: $h1-font-size;
+      color: white;
+    }
+  }
+}
+
 
 
 #stripe {
