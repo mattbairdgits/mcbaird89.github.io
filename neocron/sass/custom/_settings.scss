@@ -1,26 +1,7 @@
 /* LE PALETTE */
 
-$darkblack: #121212;
-$black: #272727;
 $white: #FFFFFF;
-$offblack: #2B2B2A;
-$offwhite: #faf9f6;
-$lightblue: #5DBFB1;
-$darkblue: #0C233F;
-$salmon: #F17A77;
-$gray: #DDDDDD;
-
-$rbs-purple: #392c46;
-$rbs-offwhite: #f0ebdc;
-$rbs-darkgreen: #04a468;
-$rbs-lightgreen: #02bd66;
-$rbs-offblack: #302f2e;
-
-$rtr-blue: #399ed8;
-$rtr-green: #c2d953;
-$rtr-black: #494949;
-$rtr-red: #ee2e24;
-$rtr-offwhite: #f5f4f0;
+$orange: #FF9900;
 
 /* END PALETTE */
 
@@ -40,7 +21,8 @@ $max-device-width: 2880px;						// Max Document Size
 $nav-distance: 0; 							// Navigation distance from the top of the viewport
 
 // Typography
-$font-family: "Merriweather";
+$font-family: "purista-web", sans-serif;
+$heading-font-family: "purista-web", sans-serif;
 $font-style-italic: italic;
 $icons: entypo;
 $font-smoothing: antialiased;
@@ -93,13 +75,13 @@ $header-font-color: #444444 !default;
 $header-link-color: #d04526 !default;
 $header-link-hover-color: #c03d20 !default;
 $body-font-color: #555555 !default;
-$body-link-color: $salmon !default;
+$body-link-color: $orange !default;
 $body-link-hover-color: #c03d20 !default;
 
 // User Interface Colors
 $global-bg-color: #fff;
 $navbar-color: $white;
-$navbar-link-color: $lightblue;
+$navbar-link-color: $orange;
 
 $primary-color: #3085d6;
 $secondary-color: #42a35a;

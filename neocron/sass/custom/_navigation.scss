@@ -1,5 +1,10 @@
 header.navigation {
 
+  .logo-container {
+    max-width: 446px;
+    display: inline-block;
+  }
+
   a {
     text-decoration: none;
     font-family: $base-font-family;
@@ -10,7 +15,7 @@ header.navigation {
   $navigation-color: #bada55;
   $navigation-color-hover: white;
   $navigation-height: 100px;
-  $navigation-nav-button-background: #bada55;
+  $navigation-nav-button-background: #FF9900;
   $navigation-nav-button-background-hover: lighten($navigation-background, 10);
   $navigation-nav-button-border: 1px solid lighten($navigation-nav-button-background, 20);
   $navigation-active-link-color: transparentize(white, 0.5);
@@ -25,7 +30,6 @@ header.navigation {
 
   .navigation-wrapper {
     @include clearfix;
-    @include outer-container;
     padding-right: $base-spacing;
     margin-top: 1em;
     margin-bottom: 2em;
@@ -37,7 +41,7 @@ header.navigation {
     }
 
     @include media ($horizontal-bar-mode) {
-      margin-top: 6em;
+      margin: 1em 2em 0 2em;
     }
   }
 
@@ -131,30 +135,27 @@ header.navigation {
     a {
       display: inline-block;
       margin-top: 1em;
-      padding: 1em;
+      padding: 1em 3em;
+      border-radius: 2px;
+      border: 1px solid rgba(255,255,255,0.7);
       color: $white;
       line-height:2em;
-      text-decoration: underline;
-      font-weight: 400;
+      font-weight: 700;
+      text-transform :uppercase;
+      letter-spacing: 2px;
+      -webkit-box-shadow: 0px 6px 66px 0px rgba(255,255,255,0.1);
+      -moz-box-shadow: 0px 6px 66px 0px rgba(255,255,255,0.1);
+      box-shadow: 0px 6px 66px 0px rgba(255,255,255,0.1);
 
       @include transition( all 0.36s );
 
       &:hover {
         color: $white;
-        background-color: #bada55;
-        padding: 1em 2em;
-        text-decoration: none;
-      }
-
-      @include media ($horizontal-bar-mode) {
-        margin: 0em;
-        padding: 1em;
-        background: #bada55;
-        text-decoration: none;
-
-        &:hover {
-          background: lighten(#bada55, 10%);;
-        }
+        background-color: darken($navigation-nav-button-background, 4%);
+        border: 1px solid darken($navigation-nav-button-background, 4%);
+        -webkit-box-shadow: 0px 6px 50px 0px rgba(0,0,0,0.2);
+        -moz-box-shadow: 0px 6px 50px 0px rgba(0,0,0,0.2);
+        box-shadow: 0px 6px 50px 0px rgba(0,0,0,0.2);
       }
 
     }
