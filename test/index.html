@@ -1183,17 +1183,17 @@
 	    display: none; } }
 
 	/* Navigation & Header */
-	section#navigation a.logo {
+	section#navigation .logo {
 	  position: absolute;
 	  top: 2%;
 	  left: 8%;
 	  z-index: 3; }
 	  @media screen and (min-width: 1440px) {
-	    section#navigation a.logo {
+	    section#navigation .logo {
 	      top: 1%;
 	      left: 14%; } }
 	  @media screen and (max-width: 767px) {
-	    section#navigation a.logo {
+	    section#navigation .logo {
 	      max-width: 100%;
 	      position: absolute;
 	      top: 30px;
@@ -1339,7 +1339,7 @@
 	      flex: 0 50%;
 	      max-width: 50%; } }
 
-	img.logo {
+	.logo img {
 	  vertical-align: middle; }
 
 	header .wrapper {
@@ -1630,16 +1630,27 @@
 	    max-width: 282px; }
 	    @media screen and (min-width: 768px) {
 	      .frascati img {
-	        left: 5px;
+	        left: 20px;
 	        right: auto;
 	        max-width: 358px;
 	        transform: none; } }
+			@media screen and (min-width: 868px) {
+				.frascati img {
+					left: 40px; } }
 	    @media screen and (min-width: 1024px) {
 	      .frascati img {
-	        max-width: 489px; } }
+	        max-width: 489px;
+					left: 10px; } }
+			@media screen and (min-width: 1200px) {
+	      .frascati img {
+					left: 80px; } }
 	    @media screen and (min-width: 1440px) {
 	      .frascati img {
-	        max-width: 950px; } }
+	        max-width: 950px;
+					left: 4%; } }
+			@media screen and (min-width: 1700px) {
+	      .frascati img {
+					left: 10%; } }
 
 	.frascati .wrapper {
 	  margin-top: 10%;
@@ -1689,15 +1700,26 @@
 	      .khai img {
 	        max-width: 278px;
 	        max-height: 200%;
-	        right: 0px;
+	        right: 60px;
 	        left: auto;
 	        transform: none; } }
+			@media screen and (min-width: 868px) {
+				.khai img {
+					right: 100px; } }
 	    @media screen and (min-width: 1024px) {
 	      .khai img {
-	        max-width: 382px; } }
+	        max-width: 382px;
+					right: 80px; } }
+			@media screen and (min-width: 1200px) {
+				.khai img {
+					right: 160px; } }
 	    @media screen and (min-width: 1440px) {
 	      .khai img {
-	        max-width: 950px; } }
+	        max-width: 950px;
+					right: 4%; } }
+			@media screen and (min-width: 1700px) {
+	      .khai img {
+					right: 10%; } }
 
 	.khai .wrapper {
 	  margin-top: 10%;
@@ -2178,7 +2200,7 @@
 <body>
 
 <section id="navigation">
-	<a href="#" class="logo"><img class="logo" src="assets/imgs/logo.svg"></a>
+	<div class="logo"><img src="assets/imgs/logo.svg" alt="Yelp Reservations"></div>
 	<a href="#" class="call-link"><img src="assets/imgs/icon_phone.svg"> Call <b>1-844-889-0910</b></a>
 </section>
 
