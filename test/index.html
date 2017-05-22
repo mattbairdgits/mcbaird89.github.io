@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
 	<meta name="description" content="">
 	<meta name="author" content="">
-	<title>Yelp</title>
+	<title>Yelp Reservations</title>
 	<style>
 	*,
 	*:after,
@@ -95,7 +95,8 @@
 	  box-sizing: border-box; }
 
 	body {
-	  margin: 0; }
+	  margin: 0;
+		border-bottom: 6px solid #D0021B }
 
 	article,
 	aside,
@@ -120,14 +121,13 @@
 	textarea,
 	button,
 	select {
-	  -webkit-font-smoothing: antialiased;
 	  -webkit-text-size-adjust: 100%; }
 
 	body,
 	html {
 	  font-family: "Roboto", sans-serif;
 	  background-color: #FFFFFF;
-	  font-weight: 400;
+	  font-weight: 300;
 	  color: #FFFFFF;
 	  overflow-x: hidden; }
 
@@ -1216,8 +1216,12 @@
 	section#navigation a.call-link {
 	  color: #FFFFFF; }
 
+	section#navigation a.call-link b {
+		-webkit-font-smoothing: antialiased;
+	}
+
 	header#normal {
-	  background-image: url("assets/imgs/header_image_320x370.jpg");
+	  background-image: url("imgs/header_image_320x370.jpg");
 	  background-repeat: no-repeat;
 	  background-position: top center;
 	  background-size: 100%;
@@ -1237,7 +1241,7 @@
 	  @media screen and (min-width: 768px) and (max-width: 1023px) {
 	    header#normal {
 	      position: relative;
-	      background-image: url("assets/imgs/header_image_768x482.jpg"); }
+	      background-image: url("imgs/header_image_768x482.jpg"); }
 	      header#normal:before {
 	        display: block;
 	        content: "";
@@ -1253,7 +1257,7 @@
 	  @media screen and (min-width: 1024px) and (max-width: 1439px) {
 	    header#normal {
 	      position: relative;
-	      background-image: url("assets/imgs/header_image_1024x594.jpg"); }
+	      background-image: url("imgs/header_image_1024x594.jpg"); }
 	      header#normal:before {
 	        display: block;
 	        content: "";
@@ -1269,7 +1273,7 @@
 	  @media screen and (min-width: 1440px) {
 	    header#normal {
 	      position: relative;
-	      background-image: url("assets/imgs/header_image_1440x666.jpg"); }
+	      background-image: url("imgs/header_image_1440x666.jpg"); }
 	      header#normal:before {
 	        display: block;
 	        content: "";
@@ -1360,10 +1364,14 @@
 
 	header .wrapper h1 {
 	  font-family: 'Roboto', sans-serif;
-	  font-weight: 300;
+	  font-weight: 200;
 	  color: #FFFFFF;
 	  text-shadow: 0 0 3px rgba(0, 0, 0, 0.7);
 	  letter-spacing: -0.34px; }
+
+		@media screen and (min-width: 768px) {
+			header .wrapper h1 {
+				max-width: 91%; } }
 
 	header .wrapper p {
 	  font-family: 'Roboto', sans-serif;
@@ -1433,7 +1441,7 @@
 
 	.hero h1.title {
 	  font-family: 'Roboto', sans-serif;
-	  font-weight: 300;
+	  font-weight: 200;
 	  color: #333333;
 	  letter-spacing: -0.73px; }
 		@media screen and (min-width: 768px) {
@@ -1556,7 +1564,7 @@
 	  padding: 0px 12px; }
 
 	.food-mobile {
-	  padding: 10px 0px 60px 0px;
+	  padding: 10px 0px 40px 0px;
 	  display: inline-block;
 	  vertical-align: top; }
 	  @media screen and (min-width: 768px) {
@@ -1603,7 +1611,7 @@
 	  line-height: 24px; }
 
 	.frascati {
-	  background: url("assets/imgs/frascati_bg.jpg") no-repeat;
+	  background: url("imgs/frascati_bg.jpg") no-repeat;
 	  background-size: 100%;
 	  background-position: bottom center;
 	  display: block;
@@ -1672,7 +1680,7 @@
 
 	.khai {
 	  clear: both;
-	  background: url("assets/imgs/khai_bg.jpg") no-repeat;
+	  background: url("imgs/khai_bg.jpg") no-repeat;
 	  background-size: cover;
 	  background-position: bottom center;
 	  display: block;
@@ -1745,7 +1753,7 @@
 
 	.china {
 	  clear: both;
-	  background: url("assets/imgs/mychina_bg.jpg") no-repeat;
+	  background: url("imgs/mychina_bg.jpg") no-repeat;
 	  background-size: cover;
 	  background-position: bottom center;
 	  display: block;
@@ -1881,9 +1889,8 @@
 	      display: none; } }
 
 	section#testimonial .wrapper p {
-	  font-weight: 300;
+	  font-weight: 200;
 	  color: #333333;
-	  letter-spacing: -0.5px;
 	  padding: 2px 30px 0px 36px; }
 
 	section#testimonial .wrapper span.quote-large {
@@ -1950,7 +1957,7 @@
 	  max-width: 507px;
 	  padding: 14px 13%;
 	  background: #FFFFFF;
-	  box-shadow: 0 2px 4px 0 rgba(109, 50, 57, 0.5);
+	  box-shadow: 1px 1px 12px 0 rgba(0, 0, 0, 0.2);
 	  position: relative;
 	  margin-bottom: 60px; }
 	  @media screen and (max-width: 767px) {
@@ -2009,7 +2016,7 @@
 	      font-size: 20px; } }
 
 	section#form select {
-	  background: url("assets/imgs/select-arrow.svg") no-repeat;
+	  background: url("imgs/select-arrow.svg") no-repeat;
 	  background-position: 97%;
 	  -webkit-appearance: none;
 	  -moz-appearance: none;
@@ -2032,7 +2039,7 @@
 	      margin-bottom: 0px; } }
 
 	section#form form input[type="submit"] {
-	  background: #D0021B url("assets/imgs/arrow.svg") no-repeat;
+	  background: #D0021B url("imgs/arrow.svg") no-repeat;
 	  background-position: 92%;
 	  background-size: 12%;
 	  padding: 30px;
@@ -2045,6 +2052,7 @@
 	  font-size: 18px;
 	  text-align: left;
 	  opacity: 1;
+		box-shadow: 0px 2px 4px 0 rgba(109, 50, 57, 0.5);
 	  -webkit-transition: all 0.3s ease;
 	  -moz-transition: all 0.3s ease;
 	  transition: all 0.3s ease; }
@@ -2052,7 +2060,7 @@
 	    section#form form input[type="submit"] {
 	      text-align: left;
 	      font-size: 20px;
-	      background: #D0021B url("assets/imgs/arrow.svg") no-repeat 92%; } }
+	      background: #D0021B url("imgs/arrow.svg") no-repeat 92%; } }
 	  @media screen and (min-width: 1024px) {
 	    section#form form input[type="submit"] {
 	      font-size: 22px; } }
@@ -2060,7 +2068,7 @@
 	    section#form form input[type="submit"] {
 	      font-size: 22px; } }
 	  section#form form input[type="submit"]:hover {
-	    background: #B80015 url("assets/imgs/arrow.svg") no-repeat 92%;
+	    background: #B80015 url("imgs/arrow.svg") no-repeat 92%;
 	    color: #FFFFFF;
 			cursor: pointer; }
 	    @media screen and (max-width: 767px) {
@@ -2076,139 +2084,6 @@
 	section#form .form input::-webkit-input-placeholder, section#form .form input:-moz-placeholder, section#form .form input:ms-input-placeholder {
 	  color: pink; }
 
-	/* Footer */
-	.footer {
-	  background: #D0021B; }
-
-	.footer a {
-	  letter-spacing: 0;
-	  font-weight: 400; }
-	  .footer a:hover {
-	    text-decoration: underline; }
-
-	.footer-container {
-	  display: -ms-flexbox;
-	  display: -webkit-flex;
-	  display: flex;
-	  -webkit-flex-direction: row;
-	  -ms-flex-direction: row;
-	  flex-direction: row;
-	  -webkit-flex-wrap: nowrap;
-	  -ms-flex-wrap: nowrap;
-	  flex-wrap: nowrap;
-	  -webkit-justify-content: space-between;
-	  -ms-flex-pack: justify;
-	  justify-content: space-between;
-	  -webkit-align-content: space-between;
-	  -ms-flex-line-pack: justify;
-	  align-content: space-between;
-	  -webkit-align-items: center;
-	  -ms-flex-align: center;
-	  align-items: center;
-	  padding: 36px 0px; }
-	  @media screen and (max-width: 767px) {
-	    .footer-container {
-	      display: -ms-flexbox;
-	      display: -webkit-flex;
-	      display: flex;
-	      -webkit-flex-direction: column;
-	      -ms-flex-direction: column;
-	      flex-direction: column;
-	      -webkit-flex-wrap: nowrap;
-	      -ms-flex-wrap: nowrap;
-	      flex-wrap: nowrap;
-	      -webkit-justify-content: space-between;
-	      -ms-flex-pack: justify;
-	      justify-content: space-between;
-	      -webkit-align-content: space-between;
-	      -ms-flex-line-pack: justify;
-	      align-content: space-between;
-	      -webkit-align-items: center;
-	      -ms-flex-align: center;
-	      align-items: center; } }
-
-	.footer-container .flex-item {
-	  display: block; }
-	  @media screen and (max-width: 767px) {
-	    .footer-container .flex-item {
-	      margin: 11px 0px; } }
-
-	.footer-container .flex-item:nth-child(1) {
-	  -webkit-order: 0;
-	  -ms-flex-order: 0;
-	  order: 0;
-	  -webkit-flex: 0 1 auto;
-	  -ms-flex: 0 1 auto;
-	  flex: 0 1 auto;
-	  -webkit-align-self: auto;
-	  -ms-flex-item-align: auto;
-	  align-self: auto; }
-
-	.footer-container .flex-item:nth-child(2) {
-	  -webkit-order: 0;
-	  -ms-flex-order: 0;
-	  order: 0;
-	  -webkit-flex: 0 1 auto;
-	  -ms-flex: 0 1 auto;
-	  flex: 0 1 auto;
-	  -webkit-align-self: auto;
-	  -ms-flex-item-align: auto;
-	  align-self: auto; }
-
-	.footer-container .flex-item:nth-child(3) {
-	  -webkit-order: 0;
-	  -ms-flex-order: 0;
-	  order: 0;
-	  -webkit-flex: 0 1 auto;
-	  -ms-flex: 0 1 auto;
-	  flex: 0 1 auto;
-	  -webkit-align-self: auto;
-	  -ms-flex-item-align: auto;
-	  align-self: auto; }
-
-	.footer-container .flex-item:nth-child(4) {
-	  -webkit-order: 0;
-	  -ms-flex-order: 0;
-	  order: 0;
-	  -webkit-flex: 0 1 auto;
-	  -ms-flex: 0 1 auto;
-	  flex: 0 1 auto;
-	  -webkit-align-self: auto;
-	  -ms-flex-item-align: auto;
-	  align-self: auto; }
-
-	.footer-container .flex-item:nth-child(5) {
-	  -webkit-order: 0;
-	  -ms-flex-order: 0;
-	  order: 0;
-	  -webkit-flex: 0 1 auto;
-	  -ms-flex: 0 1 auto;
-	  flex: 0 1 auto;
-	  -webkit-align-self: auto;
-	  -ms-flex-item-align: auto;
-	  align-self: auto; }
-
-	.footer-container .flex-item:nth-child(6) {
-	  -webkit-order: 0;
-	  -ms-flex-order: 0;
-	  order: 0;
-	  -webkit-flex: 0 1 auto;
-	  -ms-flex: 0 1 auto;
-	  flex: 0 1 auto;
-	  -webkit-align-self: auto;
-	  -ms-flex-item-align: auto;
-	  align-self: auto; }
-
-	.footer-container .flex-item:nth-child(7) {
-	  -webkit-order: 0;
-	  -ms-flex-order: 0;
-	  order: 0;
-	  -webkit-flex: 0 1 auto;
-	  -ms-flex: 0 1 auto;
-	  flex: 0 1 auto;
-	  -webkit-align-self: auto;
-	  -ms-flex-item-align: auto;
-	  align-self: auto; }
 
 	</style>
 	<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700" rel="stylesheet">
@@ -2216,8 +2091,8 @@
 <body>
 
 <section id="navigation">
-	<div class="logo"><img src="assets/imgs/logo.svg" alt="Yelp Reservations"></div>
-	<a href="tel:1-844-889-0910" class="call-link"><img src="assets/imgs/icon_phone.svg"> Call <b>1-844-889-0910</b></a>
+	<div class="logo"><img src="imgs/logo.svg" alt="Yelp Reservations"></div>
+	<a href="tel:1-844-889-0910" class="call-link"><img src="imgs/icon_phone.svg" alt="Phone icon"> Call <b>1-844-889-0910</b></a>
 </section>
 
 <header id="normal">
@@ -2225,7 +2100,7 @@
 		<div class="flex-navigation-container">
 			<div class="flex-item">
 				<div class="wrapper">
-				<!--	<a href="tel:1-844-889-0910" class="call-link"><img src="assets/imgs/icon_phone.svg"> Call <b>1-844-889-0910</b></a> -->
+				<!--	<a href="tel:1-844-889-0910" class="call-link"><img src="imgs/icon_phone.svg" alt="Phont icon"> Call <b>1-844-889-0910</b></a> -->
 				</div>
 			</div>
 		</div>
@@ -2238,7 +2113,7 @@
 						campaign to show diners in San Francisco just how easy it is to reserve a table at top
 						restaurants on Yelp.
 					</p>
-					<a href="#" class="learn-more">Learn More</a>
+					<a href="#formAnchor" class="learn-more">Learn More</a>
 				</div>
 			</div>
 		</div>
@@ -2253,7 +2128,7 @@
 			campaign to show diners in San Francisco just how easy it is to reserve a table at top
 			restaurants on Yelp.
 		</p>
-		<a href="#" class="learn-more">Learn More</a>
+		<a href="#formAnchor" class="learn-more">Learn More</a>
 		<a href="tel:1-844-889-0910" class="call-link">Or Call 1-844-889-0910</a>
 	</div>
 </header>
@@ -2266,7 +2141,7 @@
 			<div class="xlarge-3 large-6 medium-6 small-12 columns">
 				<div class="wrapper">
 					<div class="content">
-						<img src="assets/imgs/24x24_cash_back_outline.png">
+						<img src="imgs/icon_cash.png" alt="Cash icon" width="23" height="23">
 						<p>Low monthly rates and no cover fees<hr></p>
 					</div>
 				</div>
@@ -2274,7 +2149,7 @@
 			<div class="xlarge-3 large-6 medium-6 small-12 columns">
 				<div class="wrapper">
 					<div class="content">
-						<img src="assets/imgs/24x24_mobile.png">
+						<img src="imgs/icon_mobile.png" alt="Mobile icon" width="14" height="20">
 						<p>Reduce no-shows with SMS confirmation<hr></p>
 					</div>
 				</div>
@@ -2282,7 +2157,7 @@
 			<div class="xlarge-3 large-6 medium-6 small-12 columns">
 				<div class="wrapper">
 					<div class="content">
-						<img src="assets/imgs/24x24_square.png">
+						<img src="imgs/icon_table.png" alt="Table icon" width="22" height="22">
 						<p>Seamless table management<hr></p>
 					</div>
 				</div>
@@ -2290,7 +2165,7 @@
 			<div class="xlarge-3 large-6 medium-6 small-12 columns">
 				<div class="wrapper">
 					<div class="content">
-						<img src="assets/imgs/24x24_clock.png">
+						<img src="imgs/icon_clock.png" alt="Clock icon" width="20" height="20">
 						<p>Easily train your staff in minutes<hr></p>
 					</div>
 				</div>
@@ -2306,15 +2181,23 @@
 			<div class="small-12 columns">
 				<div class="wrapper">
 					<div class="content">
-						<img src="assets/imgs/24x24_cash_back_outline.png">
-						<p>Low monthly rates and no cover fees<hr></p>
+						<img src="imgs/icon_cash.png" alt="Cash icon" width="23" height="23">
+						<p>Low monthly rates and no cover&nbsp;fees<hr></p>
 					</div>
 				</div>
 			</div>
 			<div class="small-12 columns">
 				<div class="wrapper">
 					<div class="content">
-						<img src="assets/imgs/24x24_square.png">
+						<img src="imgs/icon_mobile.png" alt="Mobile icon" width="14" height="20">
+						<p>Reduce no-shows with SMS&nbsp;confirmation<hr></p>
+					</div>
+				</div>
+			</div>
+			<div class="small-12 columns">
+				<div class="wrapper">
+					<div class="content">
+						<img src="imgs/icon_table.png" alt="Table icon" width="22" height="22">
 						<p>Seamless table management<hr></p>
 					</div>
 				</div>
@@ -2322,16 +2205,8 @@
 			<div class="small-12 columns">
 				<div class="wrapper">
 					<div class="content">
-						<img src="assets/imgs/24x24_mobile.png">
-						<p>Reduce no-shows with SMS confirmation<hr></p>
-					</div>
-				</div>
-			</div>
-			<div class="small-12 columns">
-				<div class="wrapper">
-					<div class="content">
-						<img src="assets/imgs/24x24_clock.png">
-						<p>Easily train your staff in minutes<hr></p>
+						<img src="imgs/icon_clock.png" alt="Clock icon" width="20" height="20">
+						<p>Easily train your staff&nbsp;in&nbsp;minutes</p>
 					</div>
 				</div>
 			</div>
@@ -2342,7 +2217,7 @@
 <section id="food">
 	<div class="frascati">
 		<div class="container">
-			<img src="assets/imgs/frascati.png">
+			<img src="imgs/frascati.png" alt="Chef Rebecca Rader">
 			<div class="row">
 				<div class="xlarge-5 xlarge-offset-7 large-5 large-offset-6 medium-5 medium-offset-6 small-hide columns">
 					<div class="wrapper">
@@ -2370,7 +2245,7 @@
 
 	<div class="khai">
 		<div class="container">
-			<img src="assets/imgs/khai.png">
+			<img src="imgs/khai.png" alt="Chef Khai Duong">
 			<div class="row">
 				<div class="xlarge-offset-1 xlarge-5 large-offset-1 large-5 medium-offset-1 medium-6 small-hide columns">
 					<div class="wrapper">
@@ -2398,7 +2273,7 @@
 
 	<div class="china">
 		<div class="container">
-			<img src="assets/imgs/mychina.png">
+			<img src="imgs/mychina.png" alt="Chef Tony Wu">
 			<div class="row">
 				<div class="xlarge-5 xlarge-offset-6 large-5 large-offset-6 medium-5 medium-offset-6 small-hide columns">
 					<div class="wrapper">
@@ -2407,7 +2282,7 @@
 							advertising, commercials, digital ads, email marketing, and more.
 						</p>
 					</div>
-					<a href="#" class="learn-more">Learn More</a>
+					<a href="#formAnchor" class="learn-more">Learn More</a>
 				</div>
 			</div>
 		</div>
@@ -2421,11 +2296,11 @@
 						advertising, commercials, digital ads, email marketing, and more.
 					</p>
 				</div>
-				<a href="#" class="learn-more-mobile">Learn More</a>
+				<a href="#formAnchor" class="learn-more-mobile">Learn More</a>
 			</div>
 		</div>
 
-		<a href="#" class="learn-more">Learn More</a>
+		<a href="#formAnchor" class="learn-more">Learn More</a>
 	</div>
 </section>
 
@@ -2435,14 +2310,14 @@
 		<div class="row">
 			<div class="xlarge-offset-1 large-offset-1 xlarge-6 large-6 medium-12 small-12 columns">
 				<div class="wrapper">
-					<img class="testimonial-mobile" src="assets/imgs/testimonial.jpg">
+					<img class="testimonial-mobile" src="imgs/testimonial.jpg" alt="Ervan S. Lim">
 					<span class="quote-large">&ldquo;</span><p><em class="quote-small">"</em>Switching to Yelp Reservations has been positive for our team and our guests... The customer support from the Yelp reservation team has been excellent
 						and the low cost of using Yelp Reservations has helped our overhead costs."</p>
 						<span class="quote-author">- Ervan S. Lim, Director of Operations at M.Y. China</span>
 				</div>
 			</div>
 			<div class="xlarge-5 large-5 columns text-center">
-				<img class="testimonial" src="assets/imgs/testimonial.jpg">
+				<img class="testimonial" src="imgs/testimonial.jpg" alt="Ervan S. Lim">
 			</div>
 		</div>
 	</div>
@@ -2463,52 +2338,40 @@
 <section id="form">
 	<div class="page-width">
 		<div class="row">
-			<div class="small-hide xlarge-offset-1 xlarge-3 large-12 medium-12 small-12 columns">
-				<div class="wrapper">
-					<p><em class="bold">Over 97 million people use Yelp every month.</em> Find out how you can reach more people and keep your restaurant full.
-						We know that open tables aren't good for business.</p>
+			<a name="formAnchor">
+				<div class="small-hide xlarge-offset-1 xlarge-3 large-12 medium-12 small-12 columns">
+					<div class="wrapper">
+						<p><em class="bold">Over 97 million people use Yelp every month.</em> Find out how you can reach more people and keep your restaurant full.
+							We know that open tables aren't good for business.</p>
+					</div>
 				</div>
-			</div>
-			<div class="xlarge-offset-2 xlarge-6 large-12 medium-12 small-12 columns">
-				<div class="form">
-					<h3 class="request-demo">Request a Demo</h3>
-					<form>
-						<input type="text" placeholder="Restaurant">
-						<input type="text" placeholder="Address">
-						<select>
-							<option value="" disabled selected style="display: none;">What is Your Role?</option>
-							<option value="">Owner</option>
-							<option value="">Investor</option>
-							<option value="">Cook</option>
-							<option value="">Host</option>
-						</select>
-						<input type="text" placeholder="First & Last Name">
-						<input type="text" placeholder="Phone Number">
-						<input type="text" placeholder="Email Address">
+				<div class="xlarge-offset-2 xlarge-6 large-12 medium-12 small-12 columns">
+					<div class="form">
+						<h3 class="request-demo">Request a Demo</h3>
+						<form>
+							<input type="text" placeholder="Restaurant">
+							<input type="text" placeholder="Address">
+							<select>
+								<option value="" disabled selected style="display: none;">What is Your Role?</option>
+								<option value="">Owner</option>
+								<option value="">Investor</option>
+								<option value="">Cook</option>
+								<option value="">Host</option>
+							</select>
+							<input type="text" placeholder="First & Last Name">
+							<input type="text" placeholder="Phone Number">
+							<input type="text" placeholder="Email Address">
 
-						<input type="submit" value="Get Started">
-					</form>
+							<input type="submit" value="Get Started">
+						</form>
+					</div>
+					<div class="below-form-wrapper">
+						<a href="tel:1-844-889-0910" class="call-link">Or Call 1-844-889-0910</a>
+					</div>
 				</div>
-				<div class="below-form-wrapper">
-					<a href="tel:1-844-889-0910" class="call-link">Or Call 1-844-889-0910</a>
-				</div>
-			</div>
+			</a>
 
 			<div class="xlarge-1"></div>
 		</div>
 	</div>
 </section>
-
-<!-- Footer Section -->
-<div class="footer">
-	<div class="page-width">
-		<div class="footer-container">
-			<div class="flex-item"><a href="#">Make a Reservation</a></div>
-			<div class="flex-item"><a href="#">Support</a></div>
-			<div class="flex-item"><a href="#">Blog</a></div>
-			<div class="flex-item"><a href="#">Login</a></div>
-			<div class="flex-item"><a href="#">Request a Demo</a></div>
-			<div class="flex-item"><a href="#">Questions? 1-844-889-0910</a></div>
-		</div>
-	</div>
-</div>
