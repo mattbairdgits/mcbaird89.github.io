@@ -1,4 +1,4 @@
-[HTML5 Boilerplate homepage](http://html5boilerplate.com) | [Documentation
+[HTML5 Boilerplate homepage](https://html5boilerplate.com/) | [Documentation
 table of contents](TOC.md)
 
 # Miscellaneous
@@ -6,7 +6,6 @@ table of contents](TOC.md)
 * [.gitignore](#gitignore)
 * [.editorconfig](#editorconfig)
 * [Server Configuration](#server-configuration)
-* [crossdomain.xml](#crossdomainxml)
 * [robots.txt](#robotstxt)
 * [browserconfig.xml](#browserconfigxml)
 
@@ -31,7 +30,7 @@ globally ignore:
     excludesfile = ~/.gitignore
 ```
 
-* More on global ignores: https://help.github.com/articles/ignoring-files
+* More on global ignores: https://help.github.com/articles/ignoring-files/
 * Comprehensive set of ignores on GitHub: https://github.com/github/gitignore
 
 
@@ -48,7 +47,7 @@ them to better suit your needs.
 
 In order for your editor/IDE to apply the
 [properties](http://editorconfig.org/#supported-properties) from the
-`.editorconfig` file, you will need to [install a
+`.editorconfig` file, you may need to [install a
 plugin]( http://editorconfig.org/#download).
 
 __N.B.__ If you aren't using the server configurations provided by HTML5
@@ -61,36 +60,14 @@ project](http://editorconfig.org/).
 
 ## Server Configuration
 
-H5BP includes a [`.htaccess`](#htaccess) file for the Apache HTTP server. If you are not using
-Apache as your web server, then you are encouraged to download a
-[server configuration](https://github.com/h5bp/server-configs) that corresponds
-to your web server and environment.
+H5BP includes a [`.htaccess`](#htaccess) file for the [Apache HTTP
+server](https://httpd.apache.org/docs/). If you are not using Apache
+as your web server, then you are encouraged to download a
+[server configuration](https://github.com/h5bp/server-configs) that
+corresponds to your web server and environment.
 
-
-### Servers and Stacks
-
-A comprehensive list of web servers and stacks are beyond the scope of this
-documentation, but some common ones include:
-
-* [Apache HTTP Server](https://httpd.apache.org/docs/trunk/getting-started.html)
- * [LAMP](https://en.wikipedia.org/wiki/LAMP_%28software_bundle%29)
-(Linux, Apache, MySQL, and PHP).
-Other variants include [MAMP](https://www.mamp.info/en/index.html),
-[WAMP](http://www.wampserver.com/en/),
-or [XAMPP](https://www.apachefriends.org/index.html).
- * LAPP uses PostgreSQL instead of MySQL
-* [Nginx](http://wiki.nginx.org/GettingStarted)
- * [LEMP](http://www.chrisjohnston.org/ubuntu-tutorials/setting-up-a-lemp-stack-ubuntu-904)
-is similar to the LAMP stack but uses Nginx
-* [IIS](https://en.wikipedia.org/wiki/Internet_Information_Services)
- * [ASP.NET](http://www.asp.net/get-started)
-* [MEAN](http://mean.io/) (MongoDB, Express, AngularJS, Node.js)
-
-
-### .htaccess
-
-A `.htaccess` (hypertext access) file is a
-[Apache HTTP server configuration file](https://github.com/h5bp/server-configs-apache).
+A `.htaccess` (hypertext access) file is an [Apache HTTP server
+configuration file](https://github.com/h5bp/server-configs-apache).
 The `.htaccess` file is mostly used for:
 
 * Rewriting URLs
@@ -127,30 +104,13 @@ In the repo the `.htaccess` is used for:
 When using `.htaccess` we recommend reading all inline comments (the rules after
 a `#`) in the file once. There is a bunch of optional stuff in it.
 
-If you want to know more about the `.htaccess` file check out
-https://httpd.apache.org/docs/current/howto/htaccess.html.
+If you want to know more about the `.htaccess` file check out the
+[Apache HTTP server docs](https://httpd.apache.org/docs/) or more
+specifically the [htaccess
+section](https://httpd.apache.org/docs/current/howto/htaccess.html).
 
 Notice that the original repo for the `.htaccess` file is [this
 one](https://github.com/h5bp/server-configs-apache).
-
-
-## crossdomain.xml
-
-The _cross-domain policy file_ is an XML document that gives a web client —
-such as Adobe Flash Player, Adobe Reader, etc. — permission to handle data
-across multiple domains, by:
-
- * granting read access to data
- * permitting the client to include custom headers in cross-domain requests
- * granting permissions for socket-based connections
-
-__e.g.__ If a client hosts content from a particular source domain and that
-content makes requests directed towards a domain other than its own, the remote
-domain would need to host a cross-domain policy file in order to grant access
-to the source domain and allow the client to continue with the transaction.
-
-For more in-depth information, please see Adobe's [cross-domain policy file
-specification](https://www.adobe.com/devnet/articles/crossdomain_policy_file_spec.html).
 
 
 ## robots.txt
@@ -182,9 +142,9 @@ For more information about `robots.txt`, please see:
 
 ## browserconfig.xml
 
-The `browserconfig.xml` file is used to customize the tile displayed when users 
-pin your site to the Windows 8.1 start screen. In there you can define custom 
-tile colors, custom images or even [live tiles](http://msdn.microsoft.com/en-us/library/ie/dn455106.aspx#CreatingLiveTiles).
+The `browserconfig.xml` file is used to customize the tile displayed when users
+pin your site to the Windows 8.1 start screen. In there you can define custom
+tile colors, custom images or even [live tiles](https://msdn.microsoft.com/library/dn455106.aspx#CreatingLiveTiles).
 
 By default, the file points to 2 placeholder tile images:
 
@@ -195,4 +155,4 @@ By default, the file points to 2 placeholder tile images:
 Notice that IE11 uses the same images when adding a site to the `favorites`.
 
 For more in-depth information about the `browserconfig.xml` file, please
-see [MSDN](http://msdn.microsoft.com/en-us/library/ie/dn320426%28v=vs.85%29.aspx).
+see [MSDN](https://msdn.microsoft.com/library/dn320426.aspx).
