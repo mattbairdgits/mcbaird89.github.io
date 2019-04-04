@@ -1,4 +1,4 @@
-[HTML5 Boilerplate homepage](http://html5boilerplate.com) | [Documentation
+[HTML5 Boilerplate homepage](https://html5boilerplate.com/) | [Documentation
 table of contents](TOC.md)
 
 # The CSS
@@ -12,9 +12,9 @@ HTML5 Boilerplate's CSS includes:
 * [Print styles](#print-styles)
 
 This starting CSS does not rely on the presence of
-[conditional class names](http://www.paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/),
-[conditional style sheets](http://css-tricks.com/how-to-create-an-ie-only-stylesheet/),
-or [Modernizr](http://modernizr.com/), and it is ready to use no matter what
+[conditional class names](https://www.paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/),
+[conditional style sheets](https://css-tricks.com/how-to-create-an-ie-only-stylesheet/),
+or [Modernizr](https://modernizr.com/), and it is ready to use no matter what
 your development preferences happen to be.
 
 
@@ -72,10 +72,15 @@ visually, while still have its content accessible to screen readers.
 See also:
 
 * [CSS in Action: Invisible Content Just for Screen Reader
-  Users](http://www.webaim.org/techniques/css/invisiblecontent/)
+  Users](http://webaim.org/techniques/css/invisiblecontent/)
 * [Hiding content for
-  accessibility](http://snook.ca/archives/html_and_css/hiding-content-for-accessibility)
-* [HTML5 Boilerplate - Issue #194](https://github.com/h5bp/html5-boilerplate/issues/194/).
+  accessibility](https://snook.ca/archives/html_and_css/hiding-content-for-accessibility)
+* [HTML5 Boilerplate - Issue #194](https://github.com/h5bp/html5-boilerplate/issues/194).
+
+__N.B.__ [The visuallyhidden class can be an accessibility issue for users using high contrast modes.](https://www.paciellogroup.com/blog/2012/08/notes-on-accessible-css-image-sprites/)
+
+>Use JavaScript to detect when images are disabled and remove the CSS visually hidden display state of the text alternative.
+Use JavaScript to detect when Windows high contrast mode is enabled and remove the CSS visually hidden display state of the text alternative.
 
 #### `.invisible`
 
@@ -104,9 +109,9 @@ we use the [micro clearfix](http://nicolasgallagher.com/micro-clearfix-hack/).
 
 HTML5 Boilerplate makes it easy for you to get started with a
 [_mobile first_](http://www.lukew.com/presos/preso.asp?26) and [_responsive web
-design_](http://www.alistapart.com/articles/responsive-web-design/) approach to
+design_](http://alistapart.com/article/responsive-web-design) approach to
 development. But it's worth remembering that there are [no silver
-bullets](http://www.cloudfour.com/css-media-query-for-mobile-is-fools-gold/).
+bullets](https://cloudfour.com/thinks/css-media-query-for-mobile-is-fools-gold/).
 
 We include placeholder media queries to help you build up your mobile styles for
 wider viewports and high-resolution displays. It's recommended that you adapt
@@ -117,9 +122,6 @@ If you do not want to take the _mobile first_ approach, you can simply edit or
 remove these placeholder media queries. One possibility would be to work from
 wide viewports down, and use `max-width` media queries instead (e.g.:
 `@media only screen and (max-width: 480px)`).
-
-For more features that can help you in your mobile web development, take a look
-into our [Mobile Boilerplate](https://github.com/h5bp/mobile-boilerplate).
 
 
 ## Print styles
@@ -154,7 +156,7 @@ At printing time, these styles will:
     are associated with
   * ensure that
     [orphans and widows](https://en.wikipedia.org/wiki/Widows_and_orphans) do
-    [not appear on printed pages](http://css-tricks.com/almanac/properties/o/orphans/)
+    [not appear on printed pages](https://css-tricks.com/almanac/properties/o/orphans/)
 
 The print styles are included along with the other `css` to [avoid the
 additional HTTP request](http://www.phpied.com/delay-loading-your-print-css/).
